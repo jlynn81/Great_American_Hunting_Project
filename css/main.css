@@ -57,13 +57,12 @@ ul{
 	background: none;
 	list-style-type: none;
 	padding: 0;
-	overflow: hidden;
 }
 	
 li {
 	width: 150px;
 	background: #d1d3bd;
-	float: center;
+	float: left;
 }
 
 a {
