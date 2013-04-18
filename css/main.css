@@ -38,6 +38,16 @@ h2 {
 	padding: 15px;
 }
 
+#column1, column2,  {
+		color: #000; 
+		background: #fff; 
+		width: 200px; 
+		margin: 20px; 
+		padding: 10px; 
+		border: 1px solid #ccc; 
+		float: left;}
+
+
 /*Navigation Area */
 	
 #navigation a {
