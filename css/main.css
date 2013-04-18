@@ -9,7 +9,7 @@ body {
 	margin: 0 auto;
 	padding: 10px;
 }
-img #Images/logo.png {
+img "Images/logo.png" {
 	float:left;
 }
 	
