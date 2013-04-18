@@ -24,6 +24,14 @@ h2, h3 {
 	margin: 0 auto;
 	padding: 15px;
 }
+h4 {
+	color: 232412;
+	text-shadow: 2px 2px 2px #424331;
+	font-size: 32px
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px
+}
 
 p {
 	font-size: 20px;
