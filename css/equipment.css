@@ -60,12 +60,11 @@ li {
 }
 
 a {
-	text-decoration: none;
+	text: center none;
 	background: #afb19b;
 	display: block;
 	height: 30px;
 	line-height: 30px;
-	text-align: center;
 	color: 232412;	
 }
 
