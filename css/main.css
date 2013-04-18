@@ -20,7 +20,7 @@ h1	{
 	padding-left: 20px; 	
 }
 
-h2, h3 {
+h2 {
 	color: rgba(35, 36, 18);
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 36px;
@@ -104,6 +104,7 @@ strong {
 }
 p {
 	font-size: 20px;
+	-moz-column-count: 3;
 }
 footer {}
 		

@@ -11,25 +11,22 @@ body {
 }	
 
 h1	{
-	color: #232412;
+	color: rgba(35, 36, 18);
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 54px;
 	text-align: left;
 	border: 10px 5px;
 }
 	
-h2 {
-	color: #232412;
-	text: left 2px 2px 2px #424331;
+h2, h3, {
+	color: rgba(35, 36, 18);
+	text-shadow: 2px 2px 2px #424331;
 	font-size: 36;
+	text-align: center;
 	margin: 0 auto;
 	padding: 15px;
 }
 
-h3 {
-	Color: #232412;
-	
-}
 h4 {
 	height: 30px
 	margin: 0 auto;
@@ -39,7 +36,6 @@ h4 {
 
 p {
 	font-size: 20px;
-	-moz-column-count: 4;
 }
 
 /* Navigation Area */
@@ -85,7 +81,7 @@ a {
 
 /* In order for the blink to work, you have to click the back arrow */
 a:link {
-	color: rgb(35, 36, 18);
+	color: rgb(209, 211, 189);
 	text-decoration: underline;
 }
 
@@ -96,7 +92,7 @@ a:visited {
 
 a:hover {
 	color: #afb19b;
-	background: #6b6d5b;
+	background: #d1d3bd;
 }
 
 a:active{
