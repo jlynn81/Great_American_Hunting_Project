@@ -66,12 +66,12 @@ a {
 	text-align: center;
 	color: rgb(35, 36, 18);	
 }
-
+/* In order for the blink to work, you have to click the back arrow */
 a:link {
 	color: rgb(209, 211, 189);
 	text-decoration: underline;
 }
-/* In order for the blink to work, you have to click the back arrow */
+
 a:visited {
 	color: green;
 	text-decoration: blink;
@@ -87,12 +87,6 @@ a:active{
 	font-weight: bold;
 }	
 
-#Images/huntingpring.jpg {
-	width: 222px;
-	height: 148px;
-	margin-top: 30px;
-	padding: 10px;
-}
 aside {
 	background-color: #6b6d5b;
 	font-size: 16px;

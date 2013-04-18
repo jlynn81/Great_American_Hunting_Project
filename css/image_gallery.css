@@ -65,17 +65,26 @@ a {
 	color: 232412;	
 }
 
+/* In order for the blink to work, you have to click the back arrow */
+a:link {
+	color: rgb(209, 211, 189);
+	text-decoration: underline;
+}
+
 a:visited {
-	color: #214001;
+	color: green;
+	text-decoration: blink;
+}
 
 a:hover {
 	color: #afb19b;
 	background: #d1d3bd;
-}	
+}
 
-a:active {
-	color: #232412;
-	background-color: d1d3bd;
+a:active{
+	color: black
+	font-weight: bold;
+}	
 
 /* Images arrangement for proper viewing */
 
