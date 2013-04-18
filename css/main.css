@@ -12,7 +12,7 @@ body {
 	text-align: center;
 	width: 800px;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 5px;
 }
 
 #sitebranding{
@@ -27,7 +27,6 @@ h1	{
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 56px;
-	background-color: white;
 	text-align: right;
 	margin: 0 auto;
 	padding: 20px; 	
