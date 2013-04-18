@@ -1,3 +1,14 @@
+/* Body element of the webpage */
+body {
+	font-family: "Comin Sans MA", cursive, san-serif;
+	background-color: #afb19b;
+	line-height: 125%;
+	text-align: center;
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
 /*h1 tag to reflect on all pages */
 h1	{
 	color: 232412;
