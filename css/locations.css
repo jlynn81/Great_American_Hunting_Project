@@ -70,12 +70,11 @@ a:hover {
 ol {
 	width: 785px;
 	margin: 0 auto;
-	text-align: center;
+	text-align: right;
 	background: none;
 	height: 75px;
 	line-height: 30px; 
 	float: right;
-	overflow: auto;
 }
 	
 footer{
