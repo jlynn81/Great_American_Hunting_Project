@@ -8,17 +8,15 @@ body {
 	width: 800px;
 	margin: 0 auto;
 	padding: 10px;
-}
+}	
+
 h1	{
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 54px;
 	text-align: left;
-	margin: 0 auto;
-	padding-left: 20px;
-}	 
 	
-h2 {
+h2, h3 {
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 36;
@@ -26,20 +24,26 @@ h2 {
 	margin: 0 auto;
 	padding: 15px;
 }
-h3 {
-	text-shadow: 2px 2px 2px #424331;
-}
 h4 {
-	text-decoration: underline;
+	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
+	font-size: 32px
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px
 }
+
+p {
+	font-size: 20px;
+}
+
 /* Navigation for page */
 		
 #navigation a {
 	width: 200px;
 	height: 50px;
 	text-align: center;
-	text-decoration: underline;
+	text-decoration: none;
 	font-weight: bold;
 	list-style-type: none;
 }
@@ -60,12 +64,12 @@ li {
 }
 
 a {
-	text-align: center;
 	text-decoration: none;
 	background: #afb19b;
 	display: block;
 	height: 30px;
 	line-height: 30px;
+	text-align: center;
 	color: 232412;	
 }
 
@@ -75,16 +79,15 @@ a:hover {
 }	
 
 ol {
-	width: 200px;
-	height: 50px;
+	width: 785px;
 	margin: 0 auto;
-	text-align: center;
+	text-align: right;
 	background: none;
-	list-style-type: none;
-	line-height: 50px; 
+	height: 75px;
+	line-height: 30px; 
 	float: right;
 }
-	
+
 footer{
-	
+
 }
