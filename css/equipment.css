@@ -69,7 +69,8 @@ a {
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	color: 232412;	
+	color: 232412;
+	clear: right;	
 }
 
 a:hover {
