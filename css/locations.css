@@ -70,6 +70,7 @@ a:hover {
 ol {
 	width: 775px;
 	margin: 0 auto;
+	background: none;
 	float: left;
 }	
 footer{
