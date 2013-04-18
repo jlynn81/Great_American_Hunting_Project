@@ -5,6 +5,7 @@ body {
 	font-family: "Comin Sans MA", cursive, san-serif;
 	background-color: #afb19b;
 	line-height: 125%;
+	text-align: center;
 	padding: 10px;
 }
 /* h1 and h2 tags though similar, have to reflect separate font-sizes to give proper flow */	
