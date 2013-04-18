@@ -2,11 +2,10 @@
 /* Body of the index.html page*/
 
 
-h1 {
+div id-"sitebranding" {
 	text-align: center;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	float: left
 }
 	
-<div class="clearfix"></div>
 
