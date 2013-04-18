@@ -15,13 +15,13 @@ h1, h2 {
 }
 	
 li {
-	text-align: right;	
+	text-align: left;	
 }
 
-aside{
-	background-color: #6b6d5b
-	font-size: 14px
-	font-style: italic
+aside {
+	background-color: #6b6d5b;
+	font-size: 14px;
+	font-style: italic;
 }
 
 strong{
