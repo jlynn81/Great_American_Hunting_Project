@@ -9,15 +9,15 @@ body {
 }
 	
 h1	{
-	color: 232412
-	font-size: 42px
-	padding: 20px 
-	text-shadow: 2px 2px 2px #424331
+	color: 232412;
+	text-shadow: 2px 2px 2px #424331;
+	font-size: 42px;
+	padding: 20px; 	
 }
 
 h2 {
-	color: 232412
-	font-size: 36
+	color: 232412;
+	font-size: 36;
 	text-align: center;
 	padding: 15px;
 }
@@ -37,7 +37,7 @@ strong{
 }
 
 p {
-	font-size: 20px
+	font-size: 20px;
 }
 
 footer {
