@@ -33,10 +33,11 @@ h2, h3 {
 	text-align: center; 
 }
 
-img {
+#image {
 	margin: 0 auto;
 	padding: 15px;
 }
+
 /*Navigation Area */
 	
 #navigation a {
