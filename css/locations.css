@@ -9,7 +9,15 @@ body {
 	margin: 0 auto;
 	padding: 10px;
 }
-
+h1	{
+	color: 232412;
+	text-shadow: 2px 2px 2px #424331;
+	font-size: 54px;
+	text-align: left;
+	margin: 0 auto;
+	padding-left: 20px; 	
+}
+/* Navigation Element for Locations page/*
 #navigation a {
 	width: 200px;
 	height: 50px;
@@ -43,6 +51,11 @@ a {
 	text-align: center;
 	color: 232412;	
 }
+
+a:hover {
+	color: #afb19b;
+	background: #d1d3bd;
+}	
 
 a:hover {
 	color: #afb19b;
