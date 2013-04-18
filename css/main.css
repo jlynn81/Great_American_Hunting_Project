@@ -56,7 +56,6 @@ ul{
 	margin: 0 auto;
 	background: none;
 	list-style-type: none;
-	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
 }
@@ -81,6 +80,11 @@ a:hover {
 	color: #afb19b;
 	background: #d1d3bd;
 }	
+
+#Images/huntingpring.jpg {
+	margin: 0 auto;
+	padding: 0;
+}
 
 aside {
 	background-color: #6b6d5b;
