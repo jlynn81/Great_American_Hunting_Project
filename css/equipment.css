@@ -69,8 +69,7 @@ a {
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	color: 232412;
-	clear: right;	
+	color: 232412;	
 }
 
 a:hover {
@@ -86,7 +85,7 @@ ol {
 	background: none;
 	height: 30px;
 	line-height: 30px; 
-	float: left;
+	clear: left;
 }	
 
 footer{
