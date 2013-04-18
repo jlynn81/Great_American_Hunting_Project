@@ -1,15 +1,14 @@
 /* CSS Homepage */
 
-title {
+head {
 	font-family: "Comic Sans MS", cursive, sans-serif
 	float: left
 } 
 
-p 	{
-	font-family: "Comic Sans MS", cursive, sans-serif 	
+body{
+	
 }
 
-ul	{
-	font-family: "Comic Sans MS", cursive, sans-serif
-	
+h1, h2, p, ul{
+		font-family:"Comic Sans MS", cursive, sans-serif
 }
