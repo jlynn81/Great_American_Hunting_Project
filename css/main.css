@@ -30,8 +30,14 @@ h2, h3 {
 }
 
 #tagline p {
-	text-align: left; 
+	text-align: center; 
 }
+
+img {
+	margin: 0 auto;
+	padding: 15px;
+}
+/*Navigation Area */
 	
 #navigation a {
 	width: 200px;
