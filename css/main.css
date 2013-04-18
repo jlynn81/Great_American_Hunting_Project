@@ -41,8 +41,8 @@ h2 {
 #column1 {
 		color: #000; 
 		background: #6b6d5b; 
+		opacity: .7:
 		font-weight: bold;
-		opacity: 0.75;
 		width: 200px; 
 		margin: 20px; 
 		padding: 10px; 
@@ -53,8 +53,8 @@ h2 {
 #column2 {
 		color: #000; 
 		background: #6b6d5b;
+		opacity: 0.75;
 		font-weight: bold;
-		opacity: 0.75; 
 		width: 200px; 
 		margin: 20px; 
 		padding: 10px; 
@@ -65,8 +65,8 @@ h2 {
 #column3 {
 		color: #000; 
 		background: #6b6d5b;
+		opacity: 0.75;
 		font-weight: bold;
-		opacity: 0.75; 
 		width: 200px; 
 		margin: 20px; 
 		padding: 10px; 
