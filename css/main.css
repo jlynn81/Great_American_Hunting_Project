@@ -57,6 +57,7 @@ ul{
 	background: none;
 	list-style-type: none;
 	padding: 0;
+	overflow: hidden;
 }
 	
 li {
