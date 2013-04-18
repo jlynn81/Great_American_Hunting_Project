@@ -28,7 +28,28 @@ h2 {
 	
 #navigation a {
 	text-align: left;
-	text-decoration: none
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:link {
+		color: #424331;
+		
+}
+
+a:visited{
+		color: d1d3bd;
+}
+
+a:hover{
+		text-decoration: blink;
+		color: 232412;
+		background-color: white;
+}
+
+a:active{
+		color: #424331;
+		background-color: white;
 }
 
 aside {
