@@ -79,7 +79,8 @@ ol {
 	margin: 0 auto;
 	text-align: center;
 	background: none;
-	list-style-type: none; 
+	list-style-type: none;
+	line-height: 30px; 
 	float: right;
 }
 	
