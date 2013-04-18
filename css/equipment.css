@@ -17,13 +17,18 @@ h1	{
 	text-align: left;
 }
 	
-h2, h3, h4 {
+h2, h3, {
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 36;
 	text-align: center;
 	margin: 0 auto;
 	padding: 15px;
+}
+
+h4 {
+	line-height: 30px
+	margin: 0 auto;
 }
 
 p {
