@@ -4,8 +4,10 @@
 
 #title {text-align: center;}
 
-<style>
-h1 {font-family: "Comic Sans MS", cursive, sans-serif;}
+<body>
+h1 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
 	
 
 
