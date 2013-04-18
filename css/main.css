@@ -12,7 +12,7 @@ body {
 }	
 
 h1	{
-	color: rgb(35, 36, 18);
+	color: rgba(35, 36, 18);
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 54px;
 	text-align: left;
@@ -21,7 +21,7 @@ h1	{
 }
 
 h2, h3 {
-	color: rgb(35, 36, 18);
+	color: rgba(35, 36, 18);
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 36px;
 	text-align: center;
@@ -67,9 +67,24 @@ a {
 	color: rgb(35, 36, 18);	
 }
 
+a:link {
+	color: rgb(209, 211, 189);
+	text-decoration: underline;
+}
+
+a:visited {
+	color: green;
+	text-decoration: blink;
+}
+
 a:hover {
 	color: #afb19b;
 	background: #d1d3bd;
+}
+
+a:active{
+	color: black
+	font-weight: bold;
 }	
 
 #Images/huntingpring.jpg {
