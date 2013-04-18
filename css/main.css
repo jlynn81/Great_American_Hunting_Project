@@ -14,7 +14,7 @@ body {
 h1	{
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
-	font-size: 42px;
+	font-size: 42px center;
 	background-color: white;
 	padding: 10px; 	
 }
