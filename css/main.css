@@ -53,14 +53,14 @@ ul {
 	
 li {
 	width: 150px;
-	background: #d1d3bd;
+	background: none;
 	float: left;
 }
 
 a {
 	text-decoration: none;
 	background: #afb19b;
-	display: block;
+	display: inline;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;

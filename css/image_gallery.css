@@ -51,40 +51,31 @@ ul{
 	
 li {
 	width: 150px;
-	background: #d1d3bd;
+	background: none;
 	float: left;
 }
 
 a {
 	text-decoration: none;
 	background: #afb19b;
-	display: block;
+	display: inline;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	color: 232412;	
-}
-
-/* In order for the blink to work, you have to click the back arrow */
-a:link {
-	color: rgb(209, 211, 189);
-	text-decoration: underline;
+	color: rgb(35, 36, 18);	
 }
 
 a:visited {
-	color: green;
-	text-decoration: blink;
-}
+	color: #214001;
 
 a:hover {
 	color: #afb19b;
 	background: #d1d3bd;
-}
-
-a:active{
-	color: black
-	font-weight: bold;
 }	
+
+a:active {
+	color: #232412;
+	background-color: d1d3bd;
 
 /* Images arrangement for proper viewing */
 
