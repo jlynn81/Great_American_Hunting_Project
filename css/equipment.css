@@ -51,6 +51,7 @@ p {
 ul {
 	width: 775px;
 	margin: 0 auto;
+	text-align: center;
 	background: none;
 	list-style-type: none;
 	padding: 0;
