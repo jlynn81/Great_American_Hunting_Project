@@ -81,8 +81,8 @@ a:hover {
 ol li {
 	width: 775px;
 	margin: 0 auto;
-	text-align: right center;
-	list-style-type: none;
+	text-align: right;
+	list-style-type: circle;
 	background: none;
 	height: 30px;
 	line-height: 30px; 
