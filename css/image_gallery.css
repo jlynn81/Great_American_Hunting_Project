@@ -65,22 +65,38 @@ a {
 	color: rgb(35, 36, 18);	
 }
 
+/* In order for the blink to work, you have to click the back arrow */
+a:link {
+	color: rgb(35, 36, 18);
+	text-decoration: underline;
+}
+
 a:visited {
-	color: #214001;
+	color: green;
+	text-decoration: blink;
+}
 
 a:hover {
 	color: #afb19b;
 	background: #d1d3bd;
+}
+
+a:active{
+	color: black
+	font-weight: bold;
 }	
 
-a:active {
-	color: #232412;
-	background-color: d1d3bd;
-
 /* Images arrangement for proper viewing */
+#demo{
+	border:2px solid rgb(175, 177, 155);
+	list-style-type: none;
+	width: 750px;
+}
 
 img {
-	border-style: solid;
 	border-color: rgb(35, 36, 18);
 	border-width: .5px;
+}
+footer{
+	
 }
