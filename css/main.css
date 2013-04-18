@@ -74,25 +74,6 @@ a {
 	text-align: center:	
 }
 
-a:link {
-		color: #424331;		
-}
-
-a:visited{
-		color: d1d3bd;
-}
-
-a:hover{
-		text-decoration: underline;
-		color: 232412;
-		background-color: white;
-}
-
-a:active{
-		color: #424331;
-		background-color: white;
-}
-
 aside {
 	background-color: #6b6d5b;
 	font-size: 16px;
