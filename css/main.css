@@ -11,7 +11,7 @@ body {
 	line-height: 125%;
 	text-align: center;
 	width: 800px;
-	margin: 0;
+	margin: 0 auto;
 	padding: 10px;
 }
 /* h1 and h2 tags though similar, have to reflect separate font-sizes to give proper flow */	
@@ -21,7 +21,7 @@ h1	{
 	font-size: 56px;
 	background-color: white;
 	text-align: center;
-	margin: 0;
+	margin: 0 auto;
 	padding: 20px; 	
 }
 /* Applied a text-shadow to h1 and h2 */
@@ -31,7 +31,7 @@ h2 {
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 36;
 	text-align: center;
-	margin: 0;
+	margin: 0 auto;
 	padding: 15px;
 }
 
