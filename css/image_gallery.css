@@ -94,8 +94,10 @@ a:active{
 }
 
 img {
-	border-color: rgb(35, 36, 18);
-	border-width: .5px;
+	border: 15px solid #232412;
+	border-radius: 10px;
+	box-shadow:2px 2px 5px #d2d3bd;
+	margin-bottom:10px;
 }
 footer{
 	
