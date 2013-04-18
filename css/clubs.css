@@ -64,5 +64,6 @@ ol {
 	background: none;
 	list-style-type: cirlce;
 	padding: 0;
+	overflow: hidden;
 }	
 	
