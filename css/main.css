@@ -1,6 +1,6 @@
 /* CSS Homepage */
 
-head {
+h1 {
 	font-family: "Comic Sans MS", cursive, sans-serif
 	float: left
 } 
@@ -9,6 +9,6 @@ body{
 	
 }
 
-h1, h2, p, ul{
+h2, p, ul{
 		font-family:"Comic Sans MS", cursive, sans-serif
 }
