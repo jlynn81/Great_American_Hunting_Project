@@ -2,13 +2,13 @@
 /* Body of the index.html page*/
 
 body {
+	font-family: "Comin Sans MA", cursive, san-serif;
 	background-color: #afb19b;
 	line-height: 125%;
 	padding: 15px;
 	
 h1, h2 {
 	color: 232412
-	font-size: 20px "Comic Sans MS", cursive, sans-serif;
 	text-align: center;
 	padding: 15px;
 }
