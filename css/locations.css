@@ -71,8 +71,12 @@ ol {
 	width: 775px;
 	margin: 0 auto;
 	background: none;
-	float: center;
-}	
+	float: right;
+}
+
+#clearfix {
+	clear: both
+	
 footer{
-	clear: left
+	
 }
