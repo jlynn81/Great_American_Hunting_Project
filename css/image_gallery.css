@@ -73,7 +73,8 @@ a:active {
 
 /* Images arrangement for proper viewing */
 
-#demo }
-	border: 2px solid rgb(35, 36, 18);
-	list-style-type: none;
+img {
+	border-style: solid
+	border-color: hunter green
+	border-width: .5px
 }
