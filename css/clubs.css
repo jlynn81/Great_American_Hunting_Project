@@ -57,3 +57,13 @@ a:hover {
 	color: #afb19b;
 	background: #d1d3bd;
 }	
+
+ol {
+	width: 775px;
+	margin: 0 auto;
+	background: none;
+	list-style-type: cirlce;
+	padding: 0;
+	overflow: hidden;
+}	
+	
