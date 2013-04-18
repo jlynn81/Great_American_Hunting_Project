@@ -1,5 +1,5 @@
 
-/* Body of the index.html page*/
+/* Body of the index.html page */
 
 body {
 	font-family: "Comin Sans MA", cursive, san-serif;
@@ -7,7 +7,7 @@ body {
 	line-height: 125%;
 	padding: 15px;
 }
-	
+/* h1 and h2 tags though similar, have to reflect separate font-sizes to give proper flow */	
 h1	{
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
@@ -21,6 +21,9 @@ h2 {
 	text-align: center;
 	padding: 15px;
 }
+
+#tagline p {
+	text-align: left;
 	
 li {
 	text-align: left;	
@@ -40,5 +43,5 @@ p {
 	font-size: 20px;
 }
 
-footer {
+footer {}
 		
