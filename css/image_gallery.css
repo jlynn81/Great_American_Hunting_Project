@@ -20,7 +20,6 @@ ul{
 li {
 	width: 150px;
 	background: #d1d3bd;
-	text-align: center
 	float: left;
 }
 
@@ -33,6 +32,9 @@ a {
 	text-align: center;
 	color: 232412;	
 }
+
+a:visited {
+	color: #214001;
 
 a:hover {
 	color: #afb19b;
