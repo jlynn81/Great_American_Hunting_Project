@@ -20,7 +20,7 @@ h1	{
 	padding-left: 20px; 	
 }
 
-h2 h3 {
+h2, h3 {
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 36;
