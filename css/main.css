@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
 
-#title {text-align: center;}
+/* Body of the index.html page*/
 
-<body>
+
 h1 {
+	text-align: center;
 	font-family: "Comic Sans MS", cursive, sans-serif;
+	float: left
 }
 	
 
