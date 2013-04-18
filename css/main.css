@@ -13,10 +13,8 @@ h1, h2 {
 	padding: 15px;
 }
 	
-ul {
-	font-family: cursive;
-	text-align: right;
-	float: none;	
+li {
+	text-align: right;	
 }
 
 aside{
