@@ -53,6 +53,7 @@ ul {
 li {
 	width: 150px;
 	background: none;
+	direction: inline;
 	float: left;
 }
 
