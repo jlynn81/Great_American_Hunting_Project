@@ -9,7 +9,7 @@ body {
 	margin: 0 auto;
 	padding: 10px;
 }
-img {
+img #Images/logo.png {
 	float:left;
 }
 	
@@ -21,7 +21,8 @@ h1	{
 	font-size: 56px;
 	text-align: center;
 	margin: 0 auto;
-	padding: 20px; 	
+	padding: 20px; 
+	float: none;	
 }
 /* Applied a text-shadow to h1 and h2 */
 
