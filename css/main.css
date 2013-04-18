@@ -12,7 +12,7 @@ body {
 }	
 
 h1	{
-	color: 232412;
+	color: rgb(35, 36, 18);
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 54px;
 	text-align: left;
@@ -21,17 +21,16 @@ h1	{
 }
 
 h2, h3 {
-	color: 232412;
+	color: rgb(35, 36, 18);
 	text-shadow: 2px 2px 2px #424331;
-	font-size: 36;
+	font-size: 36px;
 	text-align: center;
 	margin: 0 auto;
 	padding: 15px;
 }
 
 #tagline p {
-	text-align: left;
-	background: 
+	text-align: left; 
 }
 	
 #navigation a {
@@ -65,7 +64,7 @@ a {
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	color: 232412;	
+	color: rgb(35, 36, 18);	
 }
 
 a:hover {
