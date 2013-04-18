@@ -79,8 +79,7 @@ ol li {
 	list-style-type: none;
 	background: none;
 	height: 30px;
-	line-height: 30px;
-	display: inline; 
+	line-height: 30px; 
 	float: right;
 }	
 
