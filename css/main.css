@@ -11,9 +11,9 @@ body {
 }
 
 #sitebranding{
+	width: 120px;
+	height: 90px;
 	margin: 0 auto;
-	float: left;
-
 }
 
 /* h1 and h2 tags though similar, have to reflect separate font-sizes to give proper flow */	
