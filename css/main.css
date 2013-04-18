@@ -43,9 +43,35 @@ h2 {
 #navigation a {
 	width: 200px;
 	height: 25px;
+	background: #232412;
 	text-align: left;
 	text-decoration: none;
 	font-weight: bold;
+	list-style-type: none;
+}
+
+ul{
+	width: 500px;
+	margin: 0 auto;
+	background: none;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+	
+li {
+	width: 100px;
+	background: #d1d3bd;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	background: white;
+	display: block;
+	height: 30px
+	line-height: 30px
+	text-align: center:	
 }
 
 a:link {
