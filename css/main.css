@@ -26,8 +26,9 @@ h2 {
 	text-align: left;
 }
 	
-li {
-	text-align: left;	
+#navigation a {
+	text-align: left;
+	text-decoration: none
 }
 
 aside {
