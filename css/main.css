@@ -16,7 +16,8 @@ h1	{
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 42px;
 	background-color: white;
-	text-align: center
+	text-align: center;
+	margin: 0;
 	padding: 10px; 	
 }
 /* Applied a text-shadow to h1 and h2 */
@@ -26,6 +27,7 @@ h2 {
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 36;
 	text-align: center;
+	margin: 0;
 	padding: 15px;
 }
 
