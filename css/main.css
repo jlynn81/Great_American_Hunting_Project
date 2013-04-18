@@ -14,7 +14,9 @@ body {
 	margin: 0 auto;
 	padding: 10px;
 }
+
 /* h1 and h2 tags though similar, have to reflect separate font-sizes to give proper flow */	
+
 h1	{
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
@@ -43,7 +45,6 @@ h2 {
 #navigation a {
 	width: 200px;
 	height: 25px;
-	background: #232412;
 	text-align: left;
 	text-decoration: none;
 	font-weight: bold;
