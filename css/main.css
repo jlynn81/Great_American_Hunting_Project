@@ -82,8 +82,10 @@ a:hover {
 }	
 
 #Images/huntingpring.jpg {
+	width: 222px;
+	height: 148px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 10px;
 }
 
 aside {
