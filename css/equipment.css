@@ -78,11 +78,12 @@ a:hover {
 	background: #d1d3bd;
 }	
 
-ol li {
-	width: 775px;
+ol {
+	width: 785px;
 	margin: 0 auto;
+	text-align: right;
 	background: none;
-	list-style-type: cirlce;
-	padding: 0;
-	overflow: hidden;
-}		
+	height: 75px;
+	line-height: 30px; 
+	float: right;
+}
