@@ -20,6 +20,9 @@ h1	{
 	margin: 0 auto;
 	padding: 20px; 	
 }
+h2 {
+	
+}
 
 /* Here is the Navigation for the Page */	
 #navigation a {
@@ -69,3 +72,8 @@ a:active {
 	background-color: d1d3bd;
 
 /* Images arrangement for proper viewing */
+
+a href }
+	border: 2px solid rgb(35, 36, 18);
+	list-style-type: none;
+}
