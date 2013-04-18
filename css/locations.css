@@ -75,9 +75,9 @@ ol {
 	float: right;
 }
 
-p {
+article p {
 	font-size: 20px;
-	margin-top: 36px;
+	margin-top: 0 auto;
 }
 	
 footer{
