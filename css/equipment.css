@@ -15,6 +15,7 @@ h1	{
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 54px;
 	text-align: left;
+}
 	
 h2, h3 {
 	color: 232412;
@@ -24,6 +25,7 @@ h2, h3 {
 	margin: 0 auto;
 	padding: 15px;
 }
+
 h4 {
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
