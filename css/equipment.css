@@ -9,42 +9,22 @@ body {
 	margin: 0 auto;
 	padding: 10px;
 }	
-	
-#navigation a {
-	width: 200px;
-	height: 50px;
+
+h1	{
+	color: 232412;
+	text-shadow: 2px 2px 2px #424331;
+	font-size: 54px;
 	text-align: left;
-	text-decoration: none;
-	font-weight: bold;
-	list-style-type: none;
-}
-
-ul{
-	width: 775px;
-	margin: 0 auto;
-	background: none;
-	list-style-type: none;
-	padding: 0;
-	overflow: hidden;
-}
 	
-li {
-	width: 150px;
-	background: #d1d3bd;
-	float: left;
-}
-
-a {
-	text-decoration: none;
-	background: #afb19b;
-	display: block;
-	height: 30px;
-	line-height: 30px;
+h2, h3 {
+	color: 232412;
+	text-shadow: 2px 2px 2px #424331;
+	font-size: 36;
 	text-align: center;
-	color: 232412;	
+	margin: 0 auto;
+	padding: 15px;
 }
 
-a:hover {
-	color: #afb19b;
-	background: #d1d3bd;
+p {
+	font-size: 20px;
 }	
