@@ -75,12 +75,13 @@ a:hover {
 }	
 
 ol {
-	width: 785px;
+	width: 200px;
+	height: 50px;
 	margin: 0 auto;
 	text-align: center;
 	background: none;
-	list-style-type: center;
-	line-height: 30px; 
+	list-style-type: none;
+	line-height: 50px; 
 	float: right;
 }
 	
