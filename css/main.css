@@ -8,8 +8,15 @@ body {
 	padding: 15px;
 }
 	
-h1, h2 {
+h1	{
 	color: 232412
+	font-size: 42px
+	padding: 20px 
+}
+
+h2 {
+	color: 232412
+	font-size: 36
 	text-align: center;
 	padding: 15px;
 }
@@ -20,7 +27,7 @@ li {
 
 aside {
 	background-color: #6b6d5b;
-	font-size: 14px;
+	font-size: 16px;
 	font-style: italic;
 }
 
@@ -29,4 +36,4 @@ strong{
 }
 
 p {
-	font-size: 16px
+	font-size: 20px
