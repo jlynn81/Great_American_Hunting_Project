@@ -105,6 +105,7 @@ strong {
 p {
 	font-size: 20px;
 	-moz-column-count: 3;
+	column-width: 100px;
 }
 footer {}
 		
