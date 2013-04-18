@@ -1,5 +1,4 @@
 #Images/logo.png {
-	text-align: left;
 	float: left;
 }
 /* Body of the index.html page */
@@ -35,8 +34,7 @@ h2 {
 	text-align: center;
 	margin: 0 auto;
 	padding: 15px;
-	float: none;
-	
+	float: none;	
 }
 
 #tagline p {
