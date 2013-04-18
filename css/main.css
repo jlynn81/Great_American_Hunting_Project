@@ -71,7 +71,7 @@ a:link {
 	color: rgb(209, 211, 189);
 	text-decoration: underline;
 }
-
+/* In order for the blink to work, you have to click the back arrow */
 a:visited {
 	color: green;
 	text-decoration: blink;
