@@ -1,3 +1,14 @@
+/*h1 tag to reflect on all pages */
+h1	{
+	color: 232412;
+	text-shadow: 2px 2px 2px #424331;
+	font-size: 56px;
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px; 	
+}
+
 /* Here is the Navigation for the Page */	
 #navigation a {
 	width: 200px;
