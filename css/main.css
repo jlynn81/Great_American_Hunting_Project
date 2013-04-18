@@ -1,7 +1,9 @@
-#Images/logo.png {
-	float: left;
-}
+
 /* Body of the index.html page */
+#Images/logo.jpg {
+	width: 120;
+	height: 80;
+}
 
 body {
 	font-family: "Comin Sans MA", cursive, san-serif;
@@ -19,12 +21,10 @@ h1	{
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 56px;
-	text-align: right
 	background-color: white;
+	text-align: center;
 	margin: 0 auto;
-	padding: 20px;
-	float: right;
-	 	
+	padding: 20px; 	
 }
 /* Applied a text-shadow to h1 and h2 */
 
@@ -35,14 +35,13 @@ h2 {
 	text-align: center;
 	margin: 0 auto;
 	padding: 15px;
-	float: none;	
 }
 
 #tagline p {
 	text-align: left;
 	background: 
 }
-/* Navigation CSS for Page */	
+	
 #navigation a {
 	width: 200px;
 	height: 50px;
