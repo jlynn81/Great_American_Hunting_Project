@@ -12,7 +12,7 @@ body {
 }	
 
 h1	{
-	color: rgba(35, 36, 18);
+	color: #232412;
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 54px;
 	text-align: left;
@@ -21,7 +21,7 @@ h1	{
 }
 
 h2 {
-	color: rgba(35, 36, 18);
+	color: #232412;
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 36px;
 	text-align: center;
@@ -38,15 +38,41 @@ h2 {
 	padding: 15px;
 }
 
-#column1, column2,  {
+#column1 {
 		color: #000; 
-		background: #fff; 
+		background: #6b6d5b; 
+		font-weight: bold;
+		opacity: .75;
 		width: 200px; 
 		margin: 20px; 
 		padding: 10px; 
 		border: 1px solid #ccc; 
-		float: left;}
+		float: left;
+}
 
+#column2 {
+		color: #000; 
+		background: #6b6d5b;
+		font-weight: bold;
+		opacity: .75; 
+		width: 200px; 
+		margin: 20px; 
+		padding: 10px; 
+		border: 1px solid #d1d3bd; 
+		float: left;
+}
+
+#column3 {
+		color: #000; 
+		background: #6b6d5b;
+		font-weight: bold;
+		opacity: .75; 
+		width: 200px; 
+		margin: 20px; 
+		padding: 10px; 
+		border: 1px solid #ccc; 
+		float: left;
+}
 
 /*Navigation Area */
 	
@@ -85,7 +111,7 @@ a {
 }
 /* In order for the blink to work, you have to click the back arrow */
 a:link {
-	color: rgb(209, 211, 189);
+	color: #d1d3bd;
 	text-decoration: underline;
 }
 
@@ -105,17 +131,12 @@ a:active{
 }	
 
 aside {
-	background-color: #6b6d5b;
 	font-size: 16px;
 	font-style: italic;
 }
 strong {
 	font-weight: bold;
 }
-p {
-	font-size: 20px;
-	-moz-column-count: 3;
-	column-width: 100px;
-}
+
 footer {}
 		
