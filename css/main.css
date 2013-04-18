@@ -44,7 +44,7 @@ h2 {
 	
 #navigation a {
 	width: 200px;
-	height: 25px;
+	height: 30px;
 	text-align: left;
 	text-decoration: none;
 	font-weight: bold;
@@ -54,14 +54,14 @@ h2 {
 ul{
 	width: 775px;
 	margin: 0 auto;
-	background: #fff;
+	background: none;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
 }
 	
 li {
-	width: 125px;
+	width: 150px;
 	background: #d1d3bd;
 	float: left;
 }
