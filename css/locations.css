@@ -26,6 +26,9 @@ h2 {
 	margin: 0 auto;
 	padding: 15px;
 }
+h3 {
+	text-decoration: underline;
+}
 /* Navigation for page */
 		
 #navigation a {
