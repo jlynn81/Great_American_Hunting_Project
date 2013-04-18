@@ -1,4 +1,7 @@
-
+#Images/logo.png {
+	text-align: left
+	float: left
+}
 /* Body of the index.html page */
 
 body {
@@ -18,10 +21,9 @@ h1	{
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 56px;
 	background-color: white;
-	text-align: right;
+	float: right;
 	margin: 0 auto;
-	padding: 15px;
-	float: right 	
+	padding: 20px; 	
 }
 /* Applied a text-shadow to h1 and h2 */
 
