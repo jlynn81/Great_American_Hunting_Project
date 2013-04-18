@@ -1,11 +1,15 @@
 
 /* Body of the index.html page */
+#Images/logo.jpg {
+	width: 120;
+	height: 80;
+}
 
 body {
 	font-family: "Comin Sans MA", cursive, san-serif;
 	background-color: #afb19b;
 	line-height: 125%;
-	text-align: center white;
+	text-align: center;
 	width: 800px;
 	margin: 0;
 	padding: 10px;
@@ -14,7 +18,7 @@ body {
 h1	{
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
-	font-size: 42px;
+	font-size: 56px;
 	background-color: white;
 	text-align: center;
 	margin: 0;
