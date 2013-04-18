@@ -74,6 +74,11 @@ a {
 	text-align: center:	
 }
 
+a:hover {
+	color: #afb19b;
+	background: #d1d3bd;
+}	
+
 aside {
 	background-color: #6b6d5b;
 	font-size: 16px;
