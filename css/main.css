@@ -18,9 +18,10 @@ h1	{
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 56px;
 	background-color: white;
-	text-align: left;
+	text-align: right;
 	margin: 0 auto;
-	padding: 20px; 	
+	padding: 15px;
+	float: right 	
 }
 /* Applied a text-shadow to h1 and h2 */
 
