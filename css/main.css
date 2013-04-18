@@ -1,5 +1,10 @@
 
 /* Body of the index.html page */
+#Images/logo.jpg {
+	width: 120;
+	height: 80;
+}
+
 body {
 	font-family: "Comin Sans MA", cursive, san-serif;
 	background-color: #afb19b;
@@ -9,20 +14,17 @@ body {
 	margin: 0 auto;
 	padding: 10px;
 }
-a href {
-	float: left;
-}
-	
+
 /* h1 and h2 tags though similar, have to reflect separate font-sizes to give proper flow */	
 
 h1	{
 	color: 232412;
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 56px;
-	text-align: right;
+	background-color: white;
+	text-align: center;
 	margin: 0 auto;
-	padding: 20px; 
-	float: none;	
+	padding: 20px; 	
 }
 /* Applied a text-shadow to h1 and h2 */
 
