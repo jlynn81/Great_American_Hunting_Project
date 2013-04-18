@@ -28,10 +28,10 @@ h1	{
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 56px;
 	background-color: white;
-	text-align: center;
+	text-align: right;
 	margin: 0 auto;
 	padding: 20px; 
-	float: right	
+	float: right;	
 }
 /* Applied a text-shadow to h1 and h2 */
 
