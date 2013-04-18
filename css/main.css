@@ -9,7 +9,10 @@ body {
 	margin: 0 auto;
 	padding: 10px;
 }
-
+#logo {
+	float:left;
+}
+	
 /* h1 and h2 tags though similar, have to reflect separate font-sizes to give proper flow */	
 
 h1	{
