@@ -70,12 +70,13 @@ a:hover {
 ol {
 	width: 775px;
 	margin: 0 auto;
+	text-align: center;
 	background: none;
 	float: right;
 }
 
 #clearfix {
-	clear: both
+	clear: both;
 	
 footer{
 	
