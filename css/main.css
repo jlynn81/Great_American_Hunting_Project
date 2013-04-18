@@ -9,9 +9,7 @@ body {
 	width: 800px;
 	margin: 0 auto;
 	padding: 10px;
-}
-
-/* h1 and h2 tags though similar, have to reflect separate font-sizes to give proper flow */	
+}	
 
 h1	{
 	color: 232412;
@@ -45,7 +43,7 @@ h2 {
 	list-style-type: none;
 }
 
-ul{
+ul {
 	width: 775px;
 	margin: 0 auto;
 	background: none;
@@ -88,7 +86,7 @@ aside {
 	font-style: italic;
 }
 
-strong{
+strong {
 	font-weight: bold;
 }
 
