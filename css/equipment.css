@@ -27,4 +27,46 @@ h2, h3 {
 
 p {
 	font-size: 20px;
+}
+
+/* Navigation for page */
+		
+#navigation a {
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+ul {
+	width: 775px;
+	margin: 0 auto;
+	background: none;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+	
+li {
+	width: 150px;
+	background: none;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	background: #afb19b;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: 232412;	
+}
+
+a:hover {
+	color: #afb19b;
+	background: #d1d3bd;
 }	
+	
