@@ -21,7 +21,7 @@ h1	{
 	padding-left: 20px; 	
 }
 
-h2, {
+h2 {
 	color: rgb(35, 36, 18);
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 36px;
@@ -65,6 +65,13 @@ a {
 	color: rgb(35, 36, 18);	
 }
 
+p img {
+	  border: 2px solid #232412;
+	  list-style-type: none;
+	  width: 650px
+	  float: left
+}
+
 /* In order for the blink to work, you have to click the back arrow */
 a:link {
 	color: rgb(35, 36, 18);
@@ -87,11 +94,6 @@ a:active{
 }	
 
 /* Images arrangement for proper viewing */
-#demo{
-	border:2px solid rgb(175, 177, 155);
-	list-style-type: none;
-	width: 750px;
-}
 
 #footer{
 	border-top: 3px solid #424331;
