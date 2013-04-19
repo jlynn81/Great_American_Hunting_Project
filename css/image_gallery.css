@@ -93,6 +93,7 @@ a:active{
 	width: 750px;
 }
 
-footer{
-	
+#footer{
+	border-top: 3px solid #424331;
+	height: 35px;
 }
