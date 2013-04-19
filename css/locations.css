@@ -82,7 +82,7 @@ a:hover {
 }
 
 a:active {
-	color: black
+	color: black;
 	font-weight: bold;
 }	
 
