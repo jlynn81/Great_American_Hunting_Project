@@ -26,7 +26,7 @@ h1	{
 	color: #232412;
 	text-shadow: 3px 3px 3px #424331;
 	font-size: 3.375em; /* 54px */
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
 	padding-left: 2.5%; /* 20px */ 	
 }
@@ -59,8 +59,7 @@ h2 {
 	width: 87.5%; /* 700px */ 
 	margin: 0 auto; 
 	padding: 15px; 
-	border: 1px solid #ccc;
-	column-count:3;
+	border: 1px solid #ccc
 	-moz-column-count:3; /* Firefox */
 	-webkit-column-count:3; /* Safari and Chrome */
 } 
