@@ -132,8 +132,9 @@ strong {
 }
 
 footer {
-		color: d1d3bd;
+		color: a0522d;
 		text-align: center;
+		text-decoration: underline;
 		clear: both;
 }
 		
