@@ -113,6 +113,7 @@ a {
 	color: rgb(35, 36, 18);	
 }
 /* In order for the blink to work, you have to click the back arrow */
+
 a:link {
 	color: #d1d3bd;
 	text-decoration: underline;
@@ -134,7 +135,7 @@ a:active {
 }	
 
 aside {
-	font-size: 16px;
+	font-size: 1em; /* 16px */
 	font-style: italic;
 }
 strong {
