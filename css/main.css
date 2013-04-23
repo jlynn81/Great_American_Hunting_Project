@@ -65,10 +65,11 @@ h2 {
 }
 
 #column3 {
-		font: san-serif bold;
+		font-family: san-serif;
 		color: #000; 
 		background: #6b6d5b;
 		opacity: 0.7;
+		font-weight: bold;
 		width: 200px; 
 		margin: 20px; 
 		padding: 10px; 
