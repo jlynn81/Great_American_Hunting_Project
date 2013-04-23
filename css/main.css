@@ -8,7 +8,7 @@ body {
 	height: 100%;
 	width: 100%; /* 800px */
 	margin: 0;
-	padding: 1.25%; /* 15px */
+	padding: 1.875%; /* 15px */
 }
 
 #full-screen-background-image {
@@ -20,15 +20,16 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  opacity: 0.8;
 }
 
 h1	{
 	color: #232412;
 	text-shadow: 3px 3px 3px #424331;
 	font-size: 3.375em; /* 54px */
-	text-align: left;
+	text-align: center;
 	margin: 0;
-	padding-left: 2.5%; /* 20px */ 	
+	padding: 2.5%; /* 20px */ 	
 }
 
 h2 {
@@ -58,7 +59,7 @@ h2 {
 	font-weight: none;
 	width: 87.5%; /* 700px */ 
 	margin: 0 auto; 
-	padding: 15px; 
+	padding: 5px; 
 	border: 1px solid #ccc
 	-moz-column-count:3; /* Firefox */
 	-webkit-column-count:3; /* Safari and Chrome */
@@ -66,38 +67,38 @@ h2 {
 
 /*Navigation Area */
 	
-#navigation a {
-	width: 25%; /* 200px */
-	max-width: 100%;
-	height: 50%; /* 50px */
-	text-align: left;
-	font-weight: bold;
+#navigation {
+	position: relative;
+	margin: 20px 0;
+	font: 1.5em bold; /* 24px font that is bold */
 }
 
 ul {
-	width: 96.875%; /* 775px */
 	margin: 0;
 	padding: 0;
-	opacity: .7;
-	overflow: hidden;
+	overflow: auto;
 }
 	
 li {
 	width: 18.75%; /* 150px */
 	margin: 0 5px 10px 0;
-	background: black;
+	padding: 0;
+	/* background: black; */
+	text-shadow: 1px 1px 1px #000; /* Brings out text more */
 	list-style: none;
-	display: inline-block;
+	display: inline;
 }
 
 a {
+	padding: 3px 12px;
 	text-decoration: none;
 	background: none;
 	display: inline;
-	height: 30px;
-	line-height: 30px;
+	width: 25%; /* 200px */
+	height: 50%; /* 50px */
+	line-height: 100%;
 	text-align: center;
-	color: rgb(35, 36, 18);	
+	color: #232412;	
 }
 /* In order for the blink to work, you have to click the back arrow */
 
