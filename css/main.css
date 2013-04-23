@@ -27,7 +27,7 @@ h2 {
 	font-size: 2.25em; /* 36px */
 	text-align: center;
 	margin: 0 auto;
-	padding: 15px;
+	padding: 15%; /* 15px  */
 }
 
 #tagline p {
