@@ -23,7 +23,7 @@ h1	{
 h2 {
 	color: #232412;
 	text-shadow: 2px 2px 2px #424331;
-	font-size: 36px;
+	font-size: 2.25em; /* 36px */
 	text-align: center;
 	margin: 0 auto;
 	padding: 15px;
