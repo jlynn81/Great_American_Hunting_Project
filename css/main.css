@@ -1,4 +1,4 @@
-
+/* Light Green  #afb19b,  Light Moss   #6b6d5b,  Dark Moss #424331,  Hunter Green #232412,  Light Gray #d1d3bd */
 /* Body of the index.html page */
 
 body {
@@ -13,7 +13,7 @@ body {
 #full-screen-background-image {
   z-index: -999;
   min-height: 100%;
-  min-width: 1024px;
+  min-width: 720px;
   width: 100%;
   height: auto;
   position: fixed;
@@ -22,17 +22,17 @@ body {
 }
 
 h1	{
-	color: #ffffff;
+	color: #232412;
 	text-shadow: 2px 2px 2px #424331;
 	font-size: 3.375em; /* 54px */
 	text-align: left;
 	margin: 0 auto;
-	padding-left: 20px; 	
+	padding-left: 2.5%; /* 20px */ 	
 }
 
 h2 {
-	color: #232412;
-	text-shadow: 2px 2px 2px #424331;
+	color: #d1d3bd;
+	text-shadow: 3px 3px 3px #424331;
 	font-size: 2.25em; /* 36px */
 	text-align: center;
 	margin: 0 auto;
@@ -51,10 +51,10 @@ h2 {
 
 #column1 {
 		font-family: san-serif;
-		color: #000; 
+		color: #fff; 
 		background: #6b6d5b; 
 		opacity: .7;
-		font-weight: bold;
+		font-weight: none;
 		width: 200px; 
 		margin: 20px; 
 		padding: 10px; 
@@ -64,10 +64,10 @@ h2 {
 
 #column2 {
 		font-family: san-serif;
-		color: #000; 
+		color: #fff; 
 		background: #6b6d5b;
 		opacity: 0.7;
-		font-weight: bold;
+		font-weight: none;
 		width: 200px; 
 		margin: 20px; 
 		padding: 10px; 
@@ -77,10 +77,10 @@ h2 {
 
 #column3 {
 		font-family: san-serif;
-		color: #000; 
+		color: #fff; 
 		background: #6b6d5b;
 		opacity: 0.7;
-		font-weight: bold;
+		font-weight: none;
 		width: 200px; 
 		margin: 20px; 
 		padding: 10px; 
@@ -146,6 +146,7 @@ a:active {
 }	
 
 aside {
+	color: #fff;
 	font-size: 1em; /* 16px */
 	font-style: italic;
 }
