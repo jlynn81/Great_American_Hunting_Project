@@ -56,9 +56,9 @@ h2 {
 	background: #6b6d5b;
 	opacity: 0.7;
 	font-weight: none;
-	width: 75%; /* 600px */ 
+	width: 87.5%; /* 700px */ 
 	margin: 0 auto; 
-	padding: 10px; 
+	padding: 15px; 
 	border: 1px solid #ccc;
 	column-count:3;
 	-moz-column-count:3; /* Firefox */
@@ -69,31 +69,30 @@ h2 {
 	
 #navigation a {
 	width: 25%; /* 200px */
-	height: 50px;
+	height: 50%; /* 50px */
 	text-align: left;
-	text-decoration: none;
 	font-weight: bold;
-	list-style-type: none;
 }
 
 ul {
-	width: 775px;
-	margin: 0 auto;
-	background: none;
-	list-style-type: none;
+	width: 96.875%; /* 775px */
+	margin: 0;
 	padding: 0;
+	opacity: .7;
 	overflow: hidden;
 }
 	
 li {
-	width: 150px;
-	background: none;
-	float: left;
+	width: 18.75%; /* 150px */
+	margin: 0 5px 10px 0;
+	background: black;
+	list-style: none;
+	display: inline-block;
 }
 
 a {
 	text-decoration: none;
-	background: #afb19b;
+	background: none;
 	display: inline;
 	height: 30px;
 	line-height: 30px;
@@ -104,7 +103,7 @@ a {
 
 a:link {
 	color: #d1d3bd;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:visited {
