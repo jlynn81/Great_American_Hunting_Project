@@ -74,9 +74,10 @@ p img {
 }
 
 /* In order for the blink to work, you have to click the back arrow */
+
 a:link {
-	color: rgb(35, 36, 18);
-	text-decoration: underline;
+	color: #d1d3bd;
+	text-decoration: none;
 }
 
 a:visited {
@@ -89,8 +90,8 @@ a:hover {
 	background: #d1d3bd;
 }
 
-a:active{
-	color: black
+a:active {
+	color: d1d3bd;
 	font-weight: bold;
 }	
 
