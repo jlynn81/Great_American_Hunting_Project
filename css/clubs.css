@@ -1,18 +1,18 @@
 /* Body of the index.html page */
 body {
 	font-family: "Comin Sans MA", cursive, san-serif;
-	background-color: #afb19b;
 	line-height: 125%;
 	text-align: center;
-	width: 800px;
+	height: 100%;
+	width: 100%; /* 800px */
 	margin: 0 auto;
-	padding: 10px;
-}	
+	padding: 1.875%; /* 15px */
+}
 
 #full-screen-background-image {
   z-index: -999;
   min-height: 100%;
-  min-width: -475px;
+  min-width: 475px;
   width: 100%;
   height: auto;
   position: fixed;
