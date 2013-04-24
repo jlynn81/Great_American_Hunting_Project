@@ -156,4 +156,20 @@ footer {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
 
+	#image {
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 15px;
+	display: none;
+}
+
+li {
+	width: 18.75%; /* 150px */
+	margin: 0 5px 10px 0;
+	padding: 0;
+	/* background: black; */
+	text-shadow: 1px 1px 1px #000; /* Brings out text more */
+	list-style: none;
+	display: block;
+}
 }

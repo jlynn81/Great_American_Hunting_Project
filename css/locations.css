@@ -2,43 +2,51 @@
 
 body {
 	font-family: "Comin Sans MA", cursive, san-serif;
-	background-color: #afb19b;
 	line-height: 125%;
 	text-align: center;
-	width: 800px;
+	height: 100%;
+	width: 100%; /* 800px */
 	margin: 0 auto;
-	padding: 10px;
+	padding: 1.875%; /* 15px */
 }
 
 #full-screen-background-image {
   z-index: -999;
   min-height: 100%;
-  min-width: -475px;
+  min-width: 59.375%; /*475px*/
   width: 100%;
   height: auto;
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.875;
 }
 
 h1	{
 	color: #232412;
-	text-shadow: 2px 2px 2px #424331;
-	font-size: 54px;
+	text-shadow: 3px 3px 3px #424331;
+	font-size: 3.375em; /* 54px */
 	text-align: left;
+	line-height: 100%;
+	margin: 0;
+	padding: 2.5%; /* 20px */ 	
+}
+
+#image {
 	margin: 0 auto;
-	padding-left: 20px;
-}	 
+	max-width:75%;
+	padding: 1.875%; /*15px*/
+}	
 	
 h2 {
-	color: #232412;
-	text-shadow: 2px 2px 2px #424331;
-	font-size: 36px;
+	color: #d1d3bd;
+	text-shadow: 4px 4px 4px #424331;
+	font-size: 2.25em; /* 36px */
 	text-align: center;
+	line-height: 110%;
 	margin: 0 auto;
 	padding: 15px;
 }
+
 h3 {
 	text-decoration: underline;
 }
@@ -102,13 +110,23 @@ a:active {
 }	
 
 ol {
-	width: 785px;
-	margin: 0 auto;
-	text-align: right;
-	background: none;
-	height: 75px;
-	line-height: 30px; 
-	float: right;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+ol li {
+	width: 18.75%;
+	margin: 0 5px 10px 0;
+	padding: 0;
+	/* background: black; */
+	text-shadow: 1px 1px 1px #000; /* Brings out text more */
+	list-style-type: none;
+}
+
+p {
+	text-align: center;
+	clear: both;
 }
 	
 footer {
@@ -128,9 +146,30 @@ footer {
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+
+
 }		
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 59.375%; /*475px*/
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("Images/location_background1.jpg");
+}
+
+#image {
+	margin: 0 auto;
+	max-width:75%;
+	padding: 1.875%; /*15px*/
+	display: none;
+}	
 
 }
