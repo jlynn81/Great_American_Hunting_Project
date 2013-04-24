@@ -14,7 +14,7 @@ body {
 #full-screen-background-image {
   z-index: -999;
   min-height: 100%;
-  min-width: -475px;
+  min-width: 475px;
   width: 100%;
   height: auto;
   position: fixed;
