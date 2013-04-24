@@ -38,40 +38,40 @@ p {
 	font-size: 20px;
 }
 
-/* Navigation Area */
+/*Navigation Area */
 	
-#navigation a {
-	width: 200px;
-	height: 50px;
-	text-align: left;
-	text-decoration: none;
-	font-weight: bold;
-	list-style-type: none;
+#navigation {
+	position: relative;
+	margin: 20px 0;
+	font: 1.5em bold; /* 24px font that is bold */
 }
 
 ul {
-	width: 775px;
-	margin: 0 auto;
-	background: none;
-	list-style-type: none;
+	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	overflow: auto;
 }
 	
 li {
-	width: 150px;
-	background: none;
-	float: left;
+	width: 18.75%; /* 150px */
+	margin: 0 5px 10px 0;
+	padding: 0;
+	/* background: black; */
+	text-shadow: 1px 1px 1px #000; /* Brings out text more */
+	list-style: none;
+	display: inline;
 }
 
 a {
+	padding: 3px 12px;
 	text-decoration: none;
-	background: #afb19b;
+	background: none;
 	display: inline;
-	height: 30px;
-	line-height: 30px;
+	width: 25%; /* 200px */
+	height: 50%; /* 50px */
+	line-height: 100%;
 	text-align: center;
-	color: rgb(35, 36, 18);	
+	color: #232412;	
 }
 
 #image {
