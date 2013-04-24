@@ -112,8 +112,10 @@ ol {
 	margin-left: 130px
 }	
 
-footer{
-
+footer {
+		color: #a0522d;
+		text-align: center;
+		clear: both;
 }
 
 /* Media Queries

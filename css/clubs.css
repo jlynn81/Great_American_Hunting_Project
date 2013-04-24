@@ -108,7 +108,9 @@ p {
 }	
 
 footer {
-
+		color: #a0522d;
+		text-align: center;
+		clear: both;
 }
 
 /* Media Queries

@@ -95,9 +95,10 @@ a:active{
 
 /* Images arrangement for proper viewing */
 
-#footer{
-	border-top: 3px solid #424331;
-	height: 35px;
+footer {
+		color: #a0522d;
+		text-align: center;
+		clear: both;
 }
 
 /* Media Queries

@@ -96,8 +96,10 @@ ol {
 	float: right;
 }
 	
-footer{
-	
+footer {
+		color: #a0522d;
+		text-align: center;
+		clear: both;
 }
 
 /* Media Queries
