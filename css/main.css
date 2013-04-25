@@ -5,6 +5,7 @@ body {
 	font-family: "Comin Sans MA", cursive, san-serif;
 	line-height: 125%;
 	text-align: center;
+	border-radius: 1.25%; /*10px*/ 
 	height: 100%;
 	width: 100%; /* 800px */
 	margin: 0 auto;
@@ -44,6 +45,7 @@ h2 {
 
 #tagline p {
 	text-align: center; 
+	margin: 2.5%; 
 }
 
 #image {
@@ -165,7 +167,7 @@ footer {
 
 aside {
 	color: #095021;
-	text-shadow: 2px 2px 2px #fff;
+	text-shadow: 0.125em 0.125em 0.125em #fff; /*2px 2px 2px #fff */
 	font-size: 1em; /* 16px */
 	font-style: italic;
 	border: solid #ccc;
@@ -226,6 +228,14 @@ h2 {
 	margin: 0 auto;
 	padding: 1.875%; /* 15px */
 }
+
+aside {
+	color: #095021;
+	font-size: 1em; /* 16px */
+	font-style: italic;
+	border: solid #ccc;
+}
+
 
 #column {
 	color: #000;
