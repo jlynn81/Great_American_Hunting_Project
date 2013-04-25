@@ -1,11 +1,12 @@
 /* Light Green  #afb19b,  Light Moss   #6b6d5b,  Dark Moss #424331,  Hunter Green #232412,  Light Gray #d1d3bd */
-/* Body of the index.html page */
 
+/* Body of the index.html page */
 body {
 	font-family: "Comin Sans MA", cursive, san-serif;
 	line-height: 125%;
-	text-align: center;
-	border-radius: 1.25%; /*10px*/ 
+	text-align: center; 
+	border-width: 2em; 
+	border-radius: 1.25%; /*10px*/
 	height: 100%;
 	width: 100%; /* 800px */
 	margin: 0 auto;
@@ -63,7 +64,7 @@ h2 {
 	width: 87.5%; /* 700px */ 
 	margin: 0 auto; 
 	padding: 0.625%; /* 5px */ 
-	border: 1px solid #ccc
+	border: 50% solid #ccc
 	-moz-column-count:3; /* Firefox */
 	-webkit-column-count:3; /* Safari and Chrome */
 } 
@@ -179,7 +180,7 @@ aside {
 	background: none;
 	opacity: none;
 	font-weight: none;
-	width: 87.5%; /* 700px */ 
+	width: 91.264667535854%; /* 700px/767px */ 
 	margin: 0 auto; 
 	padding: 0.625%; /* 5px */ 
 	border: 1px solid #ccc
@@ -190,7 +191,7 @@ aside {
 
 footer {
 		color: #472507;
-		text-shadow: 4px 4px 4px #424331;
+		text-shadow: 0.25em 0.25em 0.25em #424331; /* 4px 4px 4px #424331 */
 		text-align: center;
 		clear: both;
 }
@@ -221,7 +222,7 @@ footer {
 
 h2 {
 	color: #232412;
-	text-shadow: 4px 4px 4px #424331;
+	text-shadow: 0.25em 0.25em 0.25em #424331; /*4px 4px 4px #424331 */
 	font-size: 2.25em; /* 36px */
 	text-align: center;
 	line-height: 110%;
@@ -246,7 +247,7 @@ aside {
 	width: 87.5%; /* 700px */ 
 	margin: 0 auto; 
 	padding: 0.625%; /* 5px */ 
-	border: 1px solid #ccc
+	border: 0.125% solid #ccc; /* 1px solid #ccc
 	-moz-column-count:3; /* Firefox */
 	-webkit-column-count:3; /* Safari and Chrome */
 } 
