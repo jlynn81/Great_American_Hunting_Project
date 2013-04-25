@@ -162,7 +162,7 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
-  background-image: url("Images/location_background1.jpg");
+  background-image: url("Images/location_background1.jpg") no-repeat 0 0;
 }
 
 #image {

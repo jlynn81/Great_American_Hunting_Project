@@ -14,13 +14,12 @@ body {
 #full-screen-background-image {
   z-index: -999;
   min-height: 100%;
-  min-width: 475px;
+  min-width: 59.375%; /* 475px/800px */
   width: 100%;
   height: auto;
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.5;
 }
 
 h1	{
@@ -71,7 +70,7 @@ h2 {
 	
 #navigation {
 	position: relative;
-	margin: 20px 0;
+	margin: 2.5%; /* 20px */
 	font: 1.5em bold; /* 24px font that is bold */
 }
 
@@ -126,7 +125,7 @@ a:active {
 }	
 
 aside {
-	color: #d1d3bd;
+	color: #6b6d5b;
 	font-size: 1em; /* 16px */
 	font-style: italic;
 }
@@ -151,6 +150,49 @@ footer {
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 59.375%;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+}
+
+aside {
+	color: #095021;
+	text-shadow: 2px 2px 2px #fff;
+	font-size: 1em; /* 16px */
+	font-style: italic;
+	border: solid #ccc;
+}
+
+#column {
+	color: #afb19b;
+	font-family: san-serif;
+	background: none;
+	opacity: none;
+	font-weight: none;
+	width: 87.5%; /* 700px */ 
+	margin: 0 auto; 
+	padding: 0.625%; /* 5px */ 
+	border: 1px solid #ccc
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+} 
+
+
+footer {
+		color: #472507;
+		text-shadow: 4px 4px 4px #424331;
+		text-align: center;
+		clear: both;
+}
+
 
 }		
 
@@ -160,8 +202,55 @@ footer {
 	#image {
 	margin: 0 auto;
 	max-width: 100%;
-	padding: 15px;
+	padding: 1.875%;
 	display: none;
 }
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 59.375%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+li {
+	width: 18.75%; /* 150px */
+	margin: 0 5px 10px 0;
+	padding: 0;
+	/* background: black; */
+	text-shadow: 1px 1px 1px #000; /* Brings out text more */
+	list-style: none;
+	display: block;
+}
+
+
+h2 {
+	color: #232412;
+	text-shadow: 4px 4px 4px #424331;
+	font-size: 2.25em; /* 36px */
+	text-align: center;
+	line-height: 110%;
+	margin: 0 auto;
+	padding: 1.875%; /* 15px */
+}
+
+#column {
+	color: #000;
+	font-family: san-serif;
+	background: none;
+	opacity: none;
+	font-weight: none;
+	width: 87.5%; /* 700px */ 
+	margin: 0 auto; 
+	padding: 0.625%; /* 5px */ 
+	border: 1px solid #ccc
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+} 
 
 }

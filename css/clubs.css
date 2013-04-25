@@ -23,21 +23,24 @@ body {
 
 h1	{
 	color: #232412;
-	text-shadow: 2px 2px 2px #424331;
-	font-size: 54px;
+	text-shadow: 3px 3px 3px #424331;
+	font-size: 3.375em; /* 16px/54px */
 	text-align: center;
-	margin: 0 auto;
-	padding: 20px; 	
+	line-height: 100%;
+	margin: 0;
+	padding: 2.5%; /* 20px/800px */ 	
 }
 
 h2 {
-	color: #232412;
-	text-shadow: 2px 2px 2px #424331;
-	font-size: 36px;
+	color: #d1d3bd;
+	text-shadow: 4px 4px 4px #424331;
+	font-size: 2.25em; /* 36px */
 	text-align: center;
+	line-height: 110%;
 	margin: 0 auto;
-	padding: 15px;
+	padding: 1.875%; /* 15px */
 }
+	
 /*Navigation Area */
 	
 #navigation {
@@ -103,21 +106,26 @@ a:active {
 }	
 
 ol {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}	
+	
+ol li {
 	text-align: center;
-	list-style-type: circle;
+	list-style: circle;
 	background: none;
-	width: 650px;
-	height: 30px;
-	line-height: 30px; 
+	width: 81.25%; /* 650px */ 
 	Float: left;
-	display: block;
-	margin-left: 60px;	
+	display: inline;
+	margin-left: 7.5%; /* 60px */
+	padding: auto;
 }	
 
 p {
-	font-size: 20px;
+	font-size: 1.25em; /* 20px */
 	margin: 0 auto;
-	padding-top: 20px;
+	padding: 2.5%;
 	clear: both;
 }	
 
@@ -137,10 +145,58 @@ footer {
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	ol li {
+	text-align: center;
+	list-style: circle;
+	background: none;
+	width: 81.25%; /* 650px */ 
+	Float: left;
+	display: inline;
+	margin-left: 7.5%;
+}	
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 475px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+}
 
 }		
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
+	ol li {
+	text-align: center;
+	list-style: circle;
+	background: none;
+	width: 50%; /* 400px */ 
+	Float: left;
+	display: inline;
+	margin-left: 3.75% /* 30px */
+}
 
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 475px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+#image {
+	margin: 0 auto;
+	padding: 30px;
+	display: none;
+}
+	
 }	

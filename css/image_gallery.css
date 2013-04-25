@@ -105,7 +105,7 @@ a:hover {
 }
 
 a:active {
-	color: d1d3bd;
+	color: #d1d3bd;
 	font-weight: bold;
 }	
 
@@ -132,9 +132,12 @@ footer {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
+	
+	
+	
 	#gallery img {
 	  border: 2px solid #232412;
 	  list-style-type: none;
 	  width: 31.25%; /* 250px/800px */
-	  display: none;
+	  float: left;
 }
