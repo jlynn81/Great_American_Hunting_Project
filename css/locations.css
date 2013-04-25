@@ -25,7 +25,7 @@ h1	{
 	color: #232412;
 	text-shadow: 3px 3px 3px #424331;
 	font-size: 3.375em; /* 54px */
-	text-align: left;
+	text-align: center;
 	line-height: 100%;
 	margin: 0;
 	padding: 2.5%; /* 20px */ 	
@@ -117,10 +117,9 @@ ol {
 
 ol li {
 	width: 18.75%;
-	margin: 0 5px 10px 0;
+	margin: auto;
 	padding: 0;
 	/* background: black; */
-	text-shadow: 1px 1px 1px #000; /* Brings out text more */
 	list-style-type: none;
 }
 
@@ -152,18 +151,6 @@ footer {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-
-#full-screen-background-image {
-  z-index: -999;
-  min-height: 100%;
-  min-width: 59.375%; /*475px*/
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-image: url("Images/location_background1.jpg") no-repeat 0 0;
-}
 
 #image {
 	margin: 0 auto;
