@@ -3,31 +3,45 @@
 
 body {
 	font-family: "Comin Sans MA", cursive, san-serif;
-	background-color: #afb19b;
 	line-height: 125%;
 	text-align: center;
-	width: 800px;
+	height: 100%;
+	width: 100%; /* 800px */
 	margin: 0 auto;
-	padding: 10px;
+	padding: 1.875%; /* 15px/800px */
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 475px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
 }
 
 /*h1 tag to reflect on all pages */
+
 h1	{
-	color: rgb(35, 36, 18);
-	text-shadow: 2px 2px 2px #424331;
-	font-size: 54px;
-	text-align: left;
-	margin: 0 auto;
-	padding-left: 20px; 	
+	color: #232412;
+	text-shadow: 3px 3px 3px #424331;
+	font-size: 3.375em; /* 54px/16px */
+	text-align: center;
+	line-height: 100%;
+	margin: 0;
+	padding: 2.5%; /* 20px/800px */ 	
 }
 
 h2 {
-	color: rgb(35, 36, 18);
+	color: #232412;
 	text-shadow: 2px 2px 2px #424331;
-	font-size: 36px;
+	font-size: 2.25em; /* 36px */
 	text-align: center;
 	margin: 0 auto;
-	padding: 15px;
+	padding: 1.875%; /* 15px */
 }
 
 /*Navigation Area */
@@ -66,11 +80,11 @@ a {
 	color: #232412;	
 }
 
-p img {
+#gallery img {
 	  border: 2px solid #232412;
 	  list-style-type: none;
-	  width: 650px
-	  float: left
+	  width: 31.25%; /* 250px/800px */
+	  float: left;
 }
 
 /* In order for the blink to work, you have to click the back arrow */
@@ -118,5 +132,9 @@ footer {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-
+	#gallery img {
+	  border: 2px solid #232412;
+	  list-style-type: none;
+	  width: 31.25%; /* 250px/800px */
+	  display: none;
 }
