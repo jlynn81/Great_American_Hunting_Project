@@ -63,7 +63,6 @@ h2 {
 	width: 87.5%; /* 700px */ 
 	margin: 0 auto; 
 	padding: 0.625%; /* 5px */ 
-	border: 50% solid #ccc;
 	-moz-column-count: 1; /* Firefox */
 	-webkit-column-count: 1; /* Safari and Chrome */
 } 
