@@ -71,7 +71,7 @@ li {
 }
 
 a {
-	padding: 0 auto;
+	padding: 0;
 	text-decoration: none;
 	background: none;
 	display: inline;
@@ -83,7 +83,7 @@ a {
 }
 
 #gallery img {
-	  border: 0.25% solid #232412;
+	  border: 1px solid #232412;
 	  list-style-type: none;
 	  width: 31.25%; /* 250px/800px */
 	  float: none;
@@ -148,7 +148,7 @@ h2 {
 }
 
 #gallery img {
-	  border: 0.25% solid #232412;
+	  border: 1px solid #232412;
 	  list-style-type: none;
 	  width: 31.25%; /* 250px/800px */
 	  float: none;
@@ -172,7 +172,7 @@ h2 {
 }
 
 #gallery img {
-	  border: 0.25% solid #232412;
+	  border: 1px solid #232412;
 	  list-style-type: none;
 	  width: 31.25%; /* 250px/800px */
 	  float: none;
@@ -218,9 +218,10 @@ h2 {
 
 	
 #gallery img {
-	  border: 0.25% solid #232412;
+	  border: 1px solid #232412;
 	  list-style-type: none;
 	  width: 31.25%; /* 250px/800px */
 	  float: left;
 	  margin: 2.607561929596%;
+}
 }
