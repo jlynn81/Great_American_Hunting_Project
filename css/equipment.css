@@ -7,7 +7,7 @@ body {
 	border-width: 2em; 
 	border-radius: 1.25%; /*10px*/
 	height: 100%;
-	width: 100%; /* 800px */
+	width: 90%; /* 800px */
 	margin: 0 auto;
 	padding: 1.875%; /* 15px/800px */
 }
@@ -29,7 +29,7 @@ h1	{
 	font-size: 3.375em; /* 16px/54px */
 	text-align: center;
 	line-height: 100%;
-	margin: 0;
+	margin: 0 auto;
 	padding: 2.5%; /* 20px/800px */ 	
 }
 	
@@ -50,8 +50,8 @@ h4 {
 }
 
 p {
+	color: d1d3bd;
 	font-size: 1.25em; /*20px*/
-	width:
 	padding: 0 auto;
 }
 
@@ -122,15 +122,16 @@ a:active {
 
 ol li{
 	text-align: center;
-	list-style-type: circle;
 	background: none;
 	width: 81.25%; /*650px*/ 
-	height: auto;
+	height: 0 auto;
 	line-height: 37.5%; /*30px*/ 
 	Float: left;
+	border: 1px solid #424331;
+	box-shadow: 2px 2px 2px #fff;
 	display: block;
-	margin-left: 16.25%; /*130px*/
-}	
+	margin: 0.75%;
+}
 
 footer {
 		color: #a0522d;
@@ -144,6 +145,16 @@ footer {
 /* Tablet Portrait size to Standard 960 (devices and browsers) */
 @media screen and (min-width: 768px) and (max-width: 956px) {
 
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 59.375%; /* 475px/800px */
+  width: 100%;
+  height: auto;
+  position: fixed;
+  opacity: 0.75;
+}
+
 li {
 	width: 18.75%; /* 150px */
 	margin: 0 auto;
@@ -151,6 +162,20 @@ li {
 	/* background: black; */
 	display: inline;
 }
+
+ol li{
+	text-align: center;
+	background: none;
+	width: 81.25%; /*650px*/ 
+	height: 0 auto;
+	line-height: 37.5%; /*30px*/ 
+	Float: left;
+	border: .125% solid #424331;
+	box-shadow: 2px 2px 2px #111;
+	display: block;
+	margin: 0.75%;
+}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -163,7 +188,7 @@ li {
   width: 100%;
   height: auto;
   position: fixed;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 li {
@@ -178,15 +203,15 @@ li {
 a:link {
 	color: #d1d3bd;
 	text-decoration: none;
-	width: 537px;
-	height: 25px;
+	width: 67.125%; /* 537px*/
+	height: 3.125%; /*25px*/
 }
 
 a:hover {
 	color: #000;
 	background: #d1d3bd;
-	width: 537px;
-	height: 25px;
+	width: 67.125%; /* 537px*/
+	height: 3.125%; /*25px*/
 }
 
 ol li{
@@ -196,7 +221,7 @@ ol li{
 	height: 0 auto;
 	line-height: 37.5%; /*30px*/ 
 	Float: left;
-	border: 1px solid #424331;
+	border: .125% solid #424331;
 	box-shadow: 2px 2px 2px #111;
 	display: block;
 	margin: 0.75%;
@@ -228,7 +253,7 @@ li {
   width: 100%;
   height: auto;
   position: fixed;
-  opacity: 0.5;
+  opacity: 0.25;
 }
 
 a:hover {
