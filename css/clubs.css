@@ -2,56 +2,62 @@
 body {
 	font-family: "Comin Sans MA", cursive, san-serif;
 	line-height: 125%;
-	text-align: center;
+	text-align: center; 
+	border-width: 2em; 
+	border-radius: 1.25%; /*10px*/
 	height: 100%;
-	width: 100%; /* 800px */
-	margin: auto;
-	padding: 1.875%; /* 15px */
+	width: 90%; /* 800px */
+	margin: 0 auto;
+	padding: 1.875%; /* 15px/800px */
 }
 
 #full-screen-background-image {
   z-index: -999;
   min-height: 100%;
-  min-width: 475px;
+  min-width: 59.375%; /*475px*/
   width: 100%;
   height: auto;
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.875;
 }
 
 h1	{
 	color: #232412;
-	text-shadow: 3px 3px 3px #424331;
+	text-shadow: 0.1875em 0.1875em 0.1875em #424331;
 	font-size: 3.375em; /* 16px/54px */
 	text-align: center;
 	line-height: 100%;
-	margin: auto;
-	padding: auto; /*2.5%; /* 20px/800px */ 	
+	margin: 0;
+	padding: 2.5%; /* 20px/800px */ 	
 }
 
 h2 {
 	color: #d1d3bd;
-	text-shadow: 4px 4px 4px #424331;
+	text-shadow: 0.25em 0.25em 0.25em #424331;
 	font-size: 2.25em; /* 36px */
 	text-align: center;
 	line-height: 110%;
-	margin: auto;
-	padding: 0; /*1.875%; /* 15px */
+	margin: 0 auto;
+	padding: 1.875%; /* 15px */
 }
-	
+
+#tagline p {
+	text-align: center; 
+	margin: 2.5%; 
+}
+
 /*Navigation Area */
 	
 #navigation {
 	position: relative;
-	margin: 20px 0;
+	margin: 2.5%; /* 20px */
 	font: 1.5em bold; /* 24px font that is bold */
 }
 
 ul {
-	margin: auto;
-	padding: auto;
+	margin: 0;
+	padding: 0;
 	overflow: auto;
 }
 	
@@ -77,11 +83,6 @@ a {
 	color: #232412;	
 }
 
-#image {
-	margin: auto;
-	padding: auto;
-}
-
 /* In order for the blink to work, you have to click the back arrow */
 
 a:link {
@@ -100,36 +101,48 @@ a:hover {
 }
 
 a:active {
-	color: d1d3bd;
+	color: #d1d3bd;
 	font-weight: bold;
 }	
-}	
 
-ol {
-	margin: 0;
-	padding: 0;
-	overflow: auto;
-}	
+#image {
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 1.875%; /* 15px/800px */
+}
 	
 ol li {
 	text-align: center;
-	list-style: circle;
-	background: none;
-	width: 81.25%; /* 650px */ 
+	width: 81.25%; /*650px*/ 
+	height: 0 auto;
 	float: left;
-	display: inline;
-	margin-left: 7.5%; /* 60px */
-	padding: auto;
-}	
+	line-height: 37.5%; /*30px*/ 
+	display: block;
+	padding: 1.875%;
+}
 
 p {
-	font: san-serif;
-	font-size: 1.25em; /* 20px */
-	text-align: center;
+	color: d1d3bd;
+	font-size: 1.25em; /*20px*/
 	margin: 0 auto;
-	padding: 2.5%;
+	padding: 0 auto;
 	clear: both;
-}	
+}
+
+#column {
+	color: #afb19b;
+	font-family: san-serif;
+	background: none;
+	opacity: none;
+	width: 87.5%; /* 700px */ 
+	margin: 0 auto; 
+	padding: 0.625%; /* 5px */ 
+	border: 75% solid #afb19b;
+	background-color: #424331;
+	overflow: auto;
+	-moz-column-count: 1; /* Firefox */
+	-webkit-column-count: 1; /* Safari and Chrome */
+} 	
 
 footer {
 		color: #a0522d;
@@ -143,28 +156,47 @@ footer {
 /* Tablet Portrait size to Standard 960 (devices and browsers) */
 @media screen and (min-width: 768px) and (max-width: 956px) {
 
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 59.375%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+}
+
 ol li {
 	text-align: center;
-	list-style: circle;
 	background: none;
-	width: 81.25%; /* 650px */ 
-	Float: left;
-	display: inline;
-	margin-left: 7.5%;
-}	
+	width: 81.25%; /*650px*/ 
+	height: 0 auto;
+	line-height: 37.5%; /*30px*/ 
+	float: left;
+	border: 1px solid #424331;
+	box-shadow: 2px 2px 2px #fff;
+	display: block;
+}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	ol li {
+	
+ol li{
 	text-align: center;
-	list-style: circle;
 	background: none;
-	width: 81.25%; /* 650px */ 
-	Float: left;
-	display: inline;
-	margin-left: 7.5%;
-}	
+	width: 81.25%; /*650px*/ 
+	height: 0 auto;
+	line-height: 37.5%; /*30px*/ 
+	float: left;
+	border: 1px solid #424331;
+	box-shadow: 2px 2px 2px #fff;
+	display: block;
+	margin: 0.75%;
+}
 
 a:hover {
 	color: 6b6d5b;
@@ -180,22 +212,13 @@ a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 }		
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	ol li {
-	text-align: center;
-	list-style: circle;
-	background: none;
-	width: 50%; /* 400px */ 
-	Float: left;
-	display: inline;
-	margin-left: 3.75% /* 30px */
-}
 
 #full-screen-background-image {
   z-index: -999;
@@ -206,13 +229,37 @@ a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 0.25;
 }
 
+h2 {
+	color: #424331;
+	text-shadow: 0.25em 0.25em 0.25em #424331;
+	font-size: 2.25em; /* 36px */
+	text-align: center;
+	line-height: 110%;
+	margin: 0 auto;
+	padding: 1.875%; /* 15px */
+}
+	
 #image {
 	margin: 0 auto;
-	padding: 3.75%;
-	display: none;
+	max-width: 100%;
+	padding: 1.875%; /* 15px/800px */
+	display; none;
+}
+
+ol li{
+	text-align: center;
+	background: none;
+	width: 81.25%; /*650px*/ 
+	height: 0 auto;
+	line-height: 37.5%; /*30px*/ 
+	float: left;
+	border: 1px solid #424331;
+	box-shadow: 2px 2px 2px #fff;
+	display: block;
+	margin: 0.75%;
 }
 	
 }	
