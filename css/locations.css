@@ -51,7 +51,7 @@ h2 {
 }
 
 #tagline p {
-	color: afb19b;
+	color: #afb19b;
 	text-align: center; 
 	margin: 2.5%; 
 }
@@ -86,7 +86,7 @@ li {
 }
 
 a {
-	padding: 0 auto;
+	padding: 0;
 	text-decoration: none;
 	background: none;
 	display: inline;
@@ -135,12 +135,12 @@ ol li {
 	text-align: center;
 	background: none;
 	width: 81.25%; /*650px*/ 
-	height: 0 auto;
+	height: 0;
 	line-height: 37.5%; /*30px*/ 
 	Float: left;
 	display: block;
 	margin: 1.25%;
-	padding: auto 0;
+	padding: 0;
 }
 	
 footer {
@@ -172,7 +172,7 @@ footer {
 		text-shadow: 0.25em 0.25em 0.25em #424331;
 		text-align: center;
 		background-color: #000;
-		opacity; 0.5;
+		opacity: 0.5;
 		clear: both;
 }
 
@@ -224,12 +224,12 @@ ol li {
 	text-align: center;
 	background: none;
 	width: 81.25%; /*650px*/ 
-	height: 0 auto;
+	height: 0;
 	line-height: 37.5%; /*30px*/ 
 	Float: left;
 	display: block;
 	margin: 1.25%;
-	padding: auto 0;
+	padding: 0;
 }
 
 }		
