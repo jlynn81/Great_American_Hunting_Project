@@ -72,7 +72,7 @@ li {
 }
 
 a {
-	padding: auto;
+	padding: 0;
 	text-decoration: none;
 	background: none;
 	display: inline;
@@ -126,7 +126,7 @@ p {
 	color: #d1d3bd;
 	font-size: 1.25em; /*20px*/
 	margin: 0 auto;
-	padding: auto;
+	padding: 0;
 	clear: both;
 }
 
@@ -137,7 +137,7 @@ p {
 	width: 87.5%; /* 700px */ 
 	margin: 0 auto; 
 	padding: 0.625%; /* 5px */ 
-	border: 75% solid #afb19b;
+	border: 1px solid #afb19b;
 	background-color: #424331;
 	overflow: auto;
 	-moz-column-count: 1; /* Firefox */
