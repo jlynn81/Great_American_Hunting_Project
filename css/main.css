@@ -59,7 +59,6 @@ h2 {
 	color: #fff;
 	font-family: san-serif;
 	background: none;
-	opacity: none;
 	width: 87.5%; /* 700px */ 
 	margin: 0 auto; 
 	padding: 0.625%; /* 5px */ 
@@ -93,7 +92,7 @@ li {
 }
 
 a {
-	padding: 0 auto;
+	padding: auto;
 	text-decoration: none;
 	background: none;
 	display: inline;
@@ -140,10 +139,10 @@ strong {
 
 footer {
 		color: #a0522d;
-		text-shadow: 0/25em 0.25em 0.25em #424331;
+		text-shadow: 0.25em 0.25em 0.25em #424331;
 		text-align: center;
 		background-color: #fff;
-		opacity; 0.5;
+		opacity: 0.5;
 		clear: both;
 }
 	
@@ -152,7 +151,6 @@ footer {
 
 /* Tablet Portrait size to Standard 960 (devices and browsers) */
 @media screen and (min-width: 768px) and (max-width: 956px) {
-
 #full-screen-background-image {
   min-height: 100%;
   min-width: 49.686192468619%; /* 475px/956px */
@@ -210,8 +208,6 @@ aside {
 	color: #afb19b;
 	font-family: san-serif;
 	background: none;
-	opacity: none;
-	font-weight: none;
 	width: 91.264667535854%; /* 700px/767px */ 
 	margin: 0 auto; 
 	padding: 0.625%; /* 5px */ 
