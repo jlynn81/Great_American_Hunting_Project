@@ -2,13 +2,15 @@
 
 body {
 	font-family: "Comin Sans MA", cursive, san-serif;
-	background-color: #afb19b;
 	line-height: 125%;
-	text-align: center;
-	width: 800px;
+	text-align: center; 
+	border-width: 2em; 
+	border-radius: 1.25%; /*10px*/
+	height: 100%;
+	width: 100%; /* 800px */
 	margin: 0 auto;
-	padding: 10px;
-}	
+	padding: 1.875%; /* 15px/800px */
+}
 
 #full-screen-background-image {
   z-index: -999;
@@ -21,40 +23,43 @@ body {
   left: 0;
 }
 
-
 h1	{
-	color: rgba(35, 36, 18);
-	text-shadow: 2px 2px 2px #424331;
-	font-size: 54px;
-	text-align: left;
-	border: 10px 5px;
+	color: #232412;
+	text-shadow: 0.1875em 0.1875em 0.1875em #424331;
+	font-size: 3.375em; /* 16px/54px */
+	text-align: center;
+	line-height: 100%;
+	margin: 0;
+	padding: 2.5%; /* 20px/800px */ 	
 }
 	
 h2, h3, {
 	color: rgba(35, 36, 18);
-	text-shadow: 2px 2px 2px #424331;
-	font-size: 36;
+	text-shadow: 0.25em 0.25em 0.25em #424331;
+	font-size: 2em; /*36px*/
 	text-align: center;
 	margin: 0 auto;
-	padding: 15px;
+	padding: 1.875%; /*15px*/
 }
 
 h4 {
-	height: 30px
+	height: 30%; /*30px*/
 	margin: 0 auto;
-	padding: 15px;
+	padding: 1.875%;
 	clear: both;
 }
 
 p {
-	font-size: 20px;
+	font-size: 1.25em; /*20px*/
+	width:
+	padding: 0 auto;
 }
 
 /*Navigation Area */
 	
 #navigation {
 	position: relative;
-	margin: 20px 0;
+	margin: 0 auto;
 	font: 1.5em bold; /* 24px font that is bold */
 }
 
@@ -88,8 +93,9 @@ a {
 
 #image {
 	margin: 0 auto;
-	padding: 15px;
-}
+	max-width: 100%;
+	padding: 1.875%; /* 15px/800px */
+}	
 
 /* In order for the blink to work, you have to click the back arrow */
 
@@ -99,7 +105,8 @@ a:link {
 }
 
 a:visited {
-	color: green;
+	color: #700000;
+	text-shadow: 0.0625em 0.0625em 0.0625em #000; /* Brings out text more */
 	text-decoration: blink;
 }
 
@@ -113,16 +120,16 @@ a:active {
 	font-weight: bold;
 }	
 
-ol {
+ol li{
 	text-align: center;
 	list-style-type: circle;
 	background: none;
-	width: 650px;
-	height: 30px;
-	line-height: 30px; 
+	width: 81.25%; /*650px*/ 
+	height: auto;
+	line-height: 37.5%; /*30px*/ 
 	Float: left;
 	display: block;
-	margin-left: 130px
+	margin-left: 16.25%; /*130px*/
 }	
 
 footer {
@@ -137,14 +144,109 @@ footer {
 /* Tablet Portrait size to Standard 960 (devices and browsers) */
 @media screen and (min-width: 768px) and (max-width: 956px) {
 
+li {
+	width: 18.75%; /* 150px */
+	margin: 0 auto;
+	padding: 0;
+	/* background: black; */
+	display: inline;
+}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 59.375%; /* 475px/800px */
+  width: 100%;
+  height: auto;
+  position: fixed;
+  opacity: 0.7;
+}
+
+li {
+	width: 18.75%; /* 150px */
+	margin: 0 auto;
+	padding: 0;
+	text-shadow: 0.0625em 0.0625em 0.0625em #fff; /* Brings out text more */
+	list-style: none;
+	display: inline;
+}
+
+a:link {
+	color: #d1d3bd;
+	text-decoration: none;
+	width: 537px;
+	height: 25px;
+}
+
+a:hover {
+	color: #000;
+	background: #d1d3bd;
+	width: 537px;
+	height: 25px;
+}
+
+ol li{
+	text-align: center;
+	background: none;
+	width: 81.25%; /*650px*/ 
+	height: 0 auto;
+	line-height: 37.5%; /*30px*/ 
+	Float: left;
+	border: 1px solid #424331;
+	box-shadow: 2px 2px 2px #111;
+	display: block;
+	margin: 0.75%;
+}
+
 }		
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
+
+#image {
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 1.875%; /* 15px/800px */
+	display: none;
+}	
+
+li {
+	width: 18.75%; /* 150px */
+	margin: 0 auto;
+	padding: 0;
+	display: inline;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 59.375%; /* 475px/800px */
+  width: 100%;
+  height: auto;
+  position: fixed;
+  opacity: 0.5;
+}
+
+a:hover {
+	color: #afb19b;
+	background: #424331;
+}	
+	
+ol li{
+	text-align: center;
+	background: none;
+	width: 81.25%; /*650px*/ 
+	height: 0 auto;
+	line-height: 37.5%; /*30px*/ 
+	Float: left;
+	border: 1px solid #424331;
+	box-shadow: 2px 2px 2px #111;
+	display: block;
+	margin: 0.5%;
+}
 
 }
