@@ -141,9 +141,6 @@ ol li {
 	display: block;
 	margin: 1.25%;
 	padding: auto 0;
-	border: 0.125%;
-	background-color: #fff;
-	opacity: 0.4;
 }
 	
 footer {
@@ -180,16 +177,16 @@ footer {
 }
 
 ol li {
+	color: #700000;
 	text-align: center;
 	background: none;
 	width: 81.25%; /*650px*/ 
 	height: 0 auto;
 	line-height: 37.5%; /*30px*/ 
 	Float: left;
-	border: 0.125% solid #424331;
-	box-shadow: 2px 2px 2px #fff;
 	display: block;
-	margin: 0.75%;
+	margin: 1.25%;
+	padding: auto 0;
 }
 
 }
@@ -215,17 +212,24 @@ ol li {
 	padding: 1.875%; /*15px*/
 	border: solid #afb19b;
 	overflow: auto;
-}	
+}
+
+h3 {
+	color: #000;
+	text-decoration: underline;
+}		
 
 ol li {
+	color: #700000;
 	text-align: center;
 	background: none;
 	width: 81.25%; /*650px*/ 
 	height: 0 auto;
 	line-height: 37.5%; /*30px*/ 
 	Float: left;
-	display: inline;
-	margin: 0.75%;
+	display: block;
+	margin: 1.25%;
+	padding: auto 0;
 }
 
 }		
