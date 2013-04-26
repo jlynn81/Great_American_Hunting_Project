@@ -60,16 +60,16 @@ ul {
 	
 li {
 	width: 18.75%; /* 150px */
-	margin: 0 5px 10px 0;
+	margin: 0 auto;
 	padding: 0;
 	/* background: black; */
-	text-shadow: 1px 1px 1px #000; /* Brings out text more */
+	text-shadow: 0.0625em 0.0625em 0.0625em #000; /* Brings out text more */
 	list-style: none;
 	display: inline;
 }
 
 a {
-	padding: 3px 12px;
+	padding: 0 auto;
 	text-decoration: none;
 	background: none;
 	display: inline;
