@@ -140,7 +140,7 @@ strong {
 
 footer {
 		color: #a0522d;
-		text-shadow: 4px 4px 4px #424331;
+		text-shadow: 0/25em 0.25em 0.25em #424331;
 		text-align: center;
 		background-color: #fff;
 		opacity; 0.5;
