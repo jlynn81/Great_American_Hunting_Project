@@ -181,12 +181,12 @@ ol li {
 	text-align: center;
 	background: none;
 	width: 81.25%; /*650px*/ 
-	height: 0 auto;
+	height: 0;
 	line-height: 37.5%; /*30px*/ 
 	Float: left;
 	display: block;
 	margin: 1.25%;
-	padding: auto 0;
+	padding: 0;
 }
 
 }
