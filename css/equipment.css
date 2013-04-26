@@ -34,7 +34,7 @@ h1	{
 }
 	
 h2, h3, {
-	color: rgba(35, 36, 18);
+	color: #232412;
 	text-shadow: 0.25em 0.25em 0.25em #424331;
 	font-size: 2em; /*36px*/
 	text-align: center;
@@ -50,9 +50,9 @@ h4 {
 }
 
 p {
-	color: d1d3bd;
+	color: #d1d3bd;
 	font-size: 1.25em; /*20px*/
-	padding: 0 auto;
+	padding: 0;
 }
 
 /*Navigation Area */
@@ -80,7 +80,7 @@ li {
 }
 
 a {
-	padding: 0 auto;
+	padding: 0;
 	text-decoration: none;
 	background: none;
 	display: inline;
@@ -116,7 +116,7 @@ a:hover {
 }
 
 a:active {
-	color: d1d3bd;
+	color: #d1d3bd;
 	font-weight: bold;
 }	
 
@@ -124,7 +124,7 @@ ol li{
 	text-align: center;
 	background: none;
 	width: 81.25%; /*650px*/ 
-	height: 0 auto;
+	height: 0;
 	line-height: 37.5%; /*30px*/ 
 	Float: left;
 	border: 1px solid #424331;
@@ -167,10 +167,10 @@ ol li{
 	text-align: center;
 	background: none;
 	width: 81.25%; /*650px*/ 
-	height: 0 auto;
+	height: 0;
 	line-height: 37.5%; /*30px*/ 
 	Float: left;
-	border: .125% solid #424331;
+	border: 1px solid #424331;
 	box-shadow: 2px 2px 2px #111;
 	display: block;
 	margin: 0.75%;
@@ -218,10 +218,10 @@ ol li{
 	text-align: center;
 	background: none;
 	width: 81.25%; /*650px*/ 
-	height: 0 auto;
+	height: 0;
 	line-height: 37.5%; /*30px*/ 
 	Float: left;
-	border: .125% solid #424331;
+	border: 1px solid #424331;
 	box-shadow: 2px 2px 2px #111;
 	display: block;
 	margin: 0.75%;
@@ -265,7 +265,7 @@ ol li{
 	text-align: center;
 	background: none;
 	width: 81.25%; /*650px*/ 
-	height: 0 auto;
+	height: 0;
 	line-height: 37.5%; /*30px*/ 
 	Float: left;
 	border: 1px solid #424331;
