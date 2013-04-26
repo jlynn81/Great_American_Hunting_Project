@@ -113,6 +113,7 @@ a:active {
 	
 ol li {
 	text-align: center;
+	font-size: 1.5em; 
 	width: 81.25%; /*650px*/ 
 	height: 0 auto;
 	float: left;
@@ -171,6 +172,7 @@ footer {
 ol li {
 	text-align: center;
 	background: none;
+	font-size: 1.5em;
 	width: 81.25%; /*650px*/ 
 	height: 0 auto;
 	line-height: 37.5%; /*30px*/ 
@@ -178,6 +180,14 @@ ol li {
 	border: 1px solid #424331;
 	box-shadow: 2px 2px 2px #fff;
 	display: block;
+}
+
+footer {
+		color: #a0522d;
+		text-shadow: 4px 4px 4px #424331;
+		text-align: center;
+		background-color: #000;
+		opacity; 0.5;
 }
 
 }
