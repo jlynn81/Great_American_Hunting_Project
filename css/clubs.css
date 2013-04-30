@@ -104,12 +104,15 @@ a:active {
 	color: #d1d3bd;
 	font-weight: bold;
 }	
+/* End of Navigation Area */
 
+/*Small Centered Image */
 #image {
 	margin: 0 auto;
 	max-width: 100%;
 	padding: 1.875%; /* 15px/800px */
 }
+
 	
 ol li {
 	text-align: center;
