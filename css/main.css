@@ -136,7 +136,6 @@ strong {
 	color: #000;
 	font-family: "Inika", serif;
 	background: none;
-	border: solid #000;
 	border-radius: 10px;
 	background-color: #d1d3bd;
 	opacity: 0.7;
@@ -144,6 +143,7 @@ strong {
 	-moz-column-count: 1; /* Firefox */
 	-webkit-column-count: 1; /* Safari and Chrome */
 } 
+
 /* End of Content */
 footer {
 		color: #a0522d;
