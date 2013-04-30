@@ -65,7 +65,7 @@ li {
 }
 
 a {
-	padding: auto;
+	padding: 0;
 	text-decoration: none;
 	background: none;
 	display: inline;
@@ -184,7 +184,7 @@ footer {
 		text-shadow: 4px 4px 4px #424331;
 		text-align: center;
 		background-color: #000;
-		opacity; 0.5;
+		opacity: 0.5;
 		clear: both;
 }
 }
@@ -192,7 +192,7 @@ footer {
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	
-	#full-screen-background-image {
+#full-screen-background-image {
   z-index: -999;
   min-height: 100%;
   min-width: 59.375%;
@@ -231,7 +231,6 @@ footer {
 		text-align: center;
 		clear: both;
 }
-
 }		
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -272,7 +271,6 @@ aside {
 	font-family: "Fondamento", cursive;
 	border: solid #ccc;
 }
-
 
 #column1, #column2, #column3 {
 	color: #000;
