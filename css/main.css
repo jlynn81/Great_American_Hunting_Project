@@ -138,6 +138,7 @@ strong {
 	background: none;
 	border-radius: 10px;
 	background-color: #d1d3bd;
+	opacity: 0.6;
 	padding: 0.3em;
 	-moz-column-count: 1; /* Firefox */
 	-webkit-column-count: 1; /* Safari and Chrome */
@@ -274,11 +275,6 @@ aside {
 #column1, #column2, #column3 {
 	color: #000;
 	font-family: "Inika", serif;
-	background: none;
-	border: solid #000;
-	border-radius: 10px;
-	background-color: #d1d3bd;
-	opacity: 0.7;
 	padding: 0.3em;
 	-moz-column-count: 1; /* Firefox */
 	-webkit-column-count: 1; /* Safari and Chrome */
