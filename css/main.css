@@ -37,6 +37,7 @@ h1	{
 h2 {
 	color: #d1d3bd;
 	text-shadow: 0.25em 0.25em 0.25em #424331;
+	font-family: "Inika", serif;
 	font-size: 2.25em; /* 36px */
 	text-align: center;
 	line-height: 110%;
@@ -45,6 +46,7 @@ h2 {
 }
 
 #tagline p {
+	font-family: "Inika", serif;
 	text-align: center; 
 	margin: 2.5%; 
 }
@@ -57,7 +59,7 @@ h2 {
 
 #column {
 	color: #fff;
-	font-family: san-serif;
+	font-family: "Inika", serif;
 	background: none;
 	width: 87.5%; /* 700px */ 
 	margin: 0 auto; 
@@ -128,7 +130,7 @@ a:active {
 aside {
 	color: #000;
 	font-size: 1em; /* 16px */
-	font-style: italic;
+	font-family: "Fondamento", cursive;
 	border: solid #000;
 	background-color: #d1d3bd;
 	opacity: 0.7;
@@ -165,7 +167,7 @@ footer {
 aside {
 	color: #000;
 	font-size: 1em; /* 16px */
-	font-style: italic;
+	font-family: "Fondamento", cursive;
 	border: solid #000;
 	background-color: #d1d3bd;
 	opacity: 0.7;
@@ -200,13 +202,13 @@ aside {
 	color: #095021;
 	text-shadow: 0.125em 0.125em 0.125em #fff; /*2px 2px 2px #fff */
 	font-size: 1em; /* 16px */
-	font-style: italic;
+	font-family: "Fondamento", cursive;
 	border: solid #ccc;
 }
 
 #column {
 	color: #afb19b;
-	font-family: san-serif;
+	font-family: "Inika", serif;
 	background: none;
 	width: 91.264667535854%; /* 700px/767px */ 
 	margin: 0 auto; 
@@ -249,6 +251,7 @@ footer {
 h2 {
 	color: #232412;
 	text-shadow: 0.25em 0.25em 0.25em #424331; /*4px 4px 4px #424331 */
+	font-family: "Inika", serif;
 	font-size: 2.25em; /* 36px */
 	text-align: center;
 	line-height: 110%;
@@ -259,14 +262,14 @@ h2 {
 aside {
 	color: #095021;
 	font-size: 1em; /* 16px */
-	font-style: italic;
+	font-family: "Fondamento", cursive;
 	border: solid #ccc;
 }
 
 
 #column {
 	color: #000;
-	font-family: san-serif;
+	font-family: "Inika", serif;
 	background: none;
 	opacity: none;
 	font-weight: none;
