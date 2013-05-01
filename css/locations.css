@@ -123,29 +123,33 @@ p {
 table {
 	border-collapse: collapse;
 }
+
 th {
 	text-align: left;
-	background-color: #fff;
+	background-color: #232412;
 	color: #d1d3bd;
-	padding: 0.3em;
+	border-radius: 5px;
+	padding: 0.4em;
 }
 
 td {
-	border: 1px solid #000;
+	background-color: #afb19b;
 	color: #700000;
 	text-align: center;
-	background: none;
-	width: 81.25%; /*650px*/ 
+	border: 1px solid #000;
+	border-radius: 5px;
 	display: block;
-	margin: 1.25%;
-	padding: 0; 
+	padding: 0.4em;
+	float: left; 
 }
+/* End of Table Content*/
 
 #link {
 	text-align: center;
-	border: solid #000;
+	border-radius: 0.2em;
 	background: #afb19b;
-	opacity: 0.6;
+	opacity: 0.8;
+	clear: both;
 }
 
 /* End of Content Area */
