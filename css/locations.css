@@ -278,7 +278,6 @@ li {
 	list-style: none;
 	display: inline;
 }
-
 a {
 	padding: 3px 12px;
 	text-decoration: none;
@@ -290,5 +289,13 @@ a {
 	line-height: 50%;
 	color: #232412;	
 }
-
+td {
+	background-color: #afb19b;
+	color: #700000;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 5px;
+	display: block;
+	padding: 0.4em;
+}
 }
