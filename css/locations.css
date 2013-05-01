@@ -120,8 +120,10 @@ p {
 
 /* 10 Best Locations Table*/
 
-table {
+table.center {
 	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 th {
@@ -139,8 +141,7 @@ td {
 	border: 1px solid #000;
 	border-radius: 5px;
 	display: block;
-	padding: 0.4em;
-	float: left; 
+	padding: 0.4em; 
 }
 /* End of Table Content*/
 
@@ -228,6 +229,16 @@ ol li {
 	overflow: auto;
 }
 
+h2 {
+	color: #424331;
+	text-shadow: 0.1em 0.1em 0.1em #afb19b;
+	font-size: 2.25em; /* 36px */
+	text-align: center;
+	line-height: 110%;
+	margin: auto;
+	padding: 1.875%; /* 15px */
+}
+
 h3 {
 	color: #000;
 	text-decoration: underline;
@@ -289,13 +300,15 @@ a {
 	line-height: 50%;
 	color: #232412;	
 }
-td {
-	background-color: #afb19b;
-	color: #700000;
+
+h2 {
+	color: #424331;
+	text-shadow: 0.1em 0.1em 0.1em #afb19b;
+	font-size: 2.25em; /* 36px */
 	text-align: center;
-	border: 1px solid #000;
-	border-radius: 5px;
-	display: block;
-	padding: 0.4em;
+	line-height: 110%;
+	margin: auto;
+	padding: 1.875%; /* 15px */
 }
+
 }
