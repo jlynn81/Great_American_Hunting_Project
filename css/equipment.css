@@ -168,6 +168,7 @@ label, input, select {
 	display: inline-block;
 	text-align: center;
 	background-color: #424331;
+	opacity: 0.8;
 }	
 
 #message {
