@@ -153,7 +153,6 @@ footer {
   left: 0;
   opacity: 0.6;
 }
-
 h2 {
 	color: #424331;
 	text-shadow: 0.25em 0.25em 0.25em #424331;
@@ -163,14 +162,16 @@ h2 {
 	margin: 0 auto;
 	padding: 1.875%; /* 15px */
 }
-
-#gallery img {
-	  border: 1px solid #232412;
+ol li {
+	  border: 1em solid #232412;
+	  background-attachment: fixed;
 	  list-style-type: none;
-	  width: 31.25%; /* 250px/800px */
-	  float: none;
+	  width: 35%;
+	  padding: 0.9em;
+	  float: right;
+	  margin: 2em;
+	  overflow: hidden;
 }
-
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -187,15 +188,16 @@ h2 {
   left: 0;
   opacity: 0.4;
 }
-
-#gallery img {
-	  border: 1px solid #232412;
+ol li {
+	  border: 1em solid #232412;
+	  background-attachment: fixed;
 	  list-style-type: none;
-	  width: 31.25%; /* 250px/800px */
-	  float: none;
-	  margin: 2.607561929596%;
+	  width: 35%;
+	  padding: 0.9em;
+	  float: right;
+	  margin: 2em;
+	  overflow: hidden;
 }
-
 h2 {
 	color: #232412;
 	text-shadow: 0.25em 0.25em 0.25em #424331;
@@ -205,7 +207,6 @@ h2 {
 	margin: 0 auto;
 	padding: 1.875%; /* 15px */
 }
-
 }		
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -222,7 +223,6 @@ h2 {
   left: 0;
   opacity: 0.2;
 }
-
 h2 {
 	color: #424331;
 	text-shadow: 0.25em 0.25em 0.25em #424331;
@@ -231,14 +231,15 @@ h2 {
 	line-height: 110%;
 	margin: 0 auto;
 	padding: 1.875%; /* 15px */
-}
-
-	
-#gallery img {
-	  border: 1px solid #232412;
+}	
+ol li {
+	  border: 1em solid #232412;
+	  background-attachment: fixed;
 	  list-style-type: none;
-	  width: 31.25%; /* 250px/800px */
-	  float: left;
-	  margin: 2.607561929596%;
+	  width: 35%;
+	  padding: 0.9em;
+	  float: right;
+	  margin: 2em;
+	  overflow: hidden;
 }
 }
