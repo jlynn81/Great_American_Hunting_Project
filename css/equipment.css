@@ -211,7 +211,7 @@ myButton {
         
 }
 .myButton:hover {
-        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0e2b0b), color-stop(1, #2c6606));
+        background:-webkit-gradient linear="left top, left bottom" color-stop="0.05 #0e2b0b" color-stop="1, #2c6606");
         background:-moz-linear-gradient(top, #0e2b0b 5%, #2c6606 100%);
         background:-webkit-linear-gradient(top, #0e2b0b 5%, #2c6606 100%);
         background:-o-linear-gradient(top, #0e2b0b 5%, #2c6606 100%);
