@@ -114,7 +114,10 @@ h2 {
 }
 
 p {
-	text-align: center;
+	color: #d1d3bd;
+	font-size: 1.25em; /*20px*/
+	margin: 0 auto;
+	padding: 0;
 	clear: both;
 }	
 
