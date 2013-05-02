@@ -91,7 +91,7 @@
 					<input type="text" name="address" id="address"/>
 					
 					<label for="state" class="fixedwidth">State</label>
-					<select name="state">
+					<select name="state" id="state">
 					<option value="AL">Alabama</option>
 					<option value="AK">Alaska</option>
 					<option value="AZ">Arizona</option>
@@ -166,13 +166,12 @@
 				</div>
 			<!-- End of Checkbox Field Area -->
 			
-			<div id="message_box">
-				<label for="message" class="fixedwidth">Message</label>
+			<div id="message">
+				<label for="message">Message:</label>
 				<textarea rows="6" cols="30" name="message" id="message"></textarea>
 			</div>	
-			
-			<div class="mybutton">
-				<mybutton type="submit" name="submit" id="myButton">Send Message</mybutton>
+			<div id="mybutton">
+				<mybutton type="submit" name="submit" class="button"><a href="#" class="myButton">Send Message</a></mybutton>
 			</div>		
 		</form> 
 	<!-- End of Form Data -->	
