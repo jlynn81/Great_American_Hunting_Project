@@ -136,7 +136,7 @@ h4 {
 	clear: both;
 }
 
-#link {
+p {
 	color: #d1d3bd;
 	font-size: 1.25em; /*20px*/
 	border: 1px solid #afb19b;
@@ -159,7 +159,7 @@ label, input, select {
 	text-align: left;
 }
 
-p {
+#link {
 	color: #d1d3bd;
 }	
 
