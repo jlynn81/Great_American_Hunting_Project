@@ -167,18 +167,20 @@ label, input, select {
 	color: #d1d3bd;
 	display: inline-block;
 	text-align: center;
+	float: right;
 	background-color: #424331;
 	opacity: 0.8;
 }	
 
-#message_box {
+#message {
 	color: #afb19b;
 	text-align: center;
-	clear: both;
+	clear: right;
+	padding: 1em;
 }
 
 textarea {
-	float: left;
+	clear: left;
 }
 
 /* Gradient Button */
@@ -205,6 +207,7 @@ myButton {
     	color:#c5d4c3;
     	font-family:arial;
     	font:15px bold;
+    	margin: 1em;
     	padding:6px 24px;
     	text-decoration:none;
         text-shadow:0px 1px 0px #979e96;
