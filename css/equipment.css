@@ -181,7 +181,7 @@ textarea {
 }
 
 /* Gradient Button */
-.myButton {
+myButton {
     	-moz-box-shadow:inset 0px 0px 14px -3px #eaf5e9;
     	-webkit-box-shadow:inset 0px 0px 14px -3px #eaf5e9;
    		box-shadow:inset 0px 0px 14px -3px #eaf5e9;
