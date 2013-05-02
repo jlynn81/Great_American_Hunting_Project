@@ -218,7 +218,6 @@ myButton {
         background:-o-linear-gradient(top, #0e2b0b 5%, #2c6606 100%);
         background:-ms-linear-gradient(top, #0e2b0b 5%, #2c6606 100%);
         background:linear-gradient(to bottom, #0e2b0b 5%, #2c6606 100%);
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e2b0b', endColorstr='#2c6606',GradientType=0);
         
         background-color:#0e2b0b;
 }
