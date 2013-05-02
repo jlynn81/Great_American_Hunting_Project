@@ -46,15 +46,14 @@
 		<h2>Hunting Equipment and Cooking</h2></header>
 		
 			<p>Every great hunting experience requires the proper gear.  Not only do you need 
-			the right hunting gear but you may also need the right recipe for that Wild game.</p>
-		
-			<p> Below are some links that will take you to some tried and true recipes.</p>
+			the right hunting gear but you may also need the right recipe for that Wild game.
+			Below are some links that will take you to some tried and true recipes.</p>
 		
 	<article>
 		<header>
 			<h3>Recipes for Wild Game</h3>
 		</header>	
-				<p>The below links will take you to just some of the many websites that are available
+				<p id="link">The below links will take you to just some of the many websites that are available
 				to you on the internet and these have been tried by the masses and the food
 				is <strong>amazing!</strong></p>
 			
@@ -67,13 +66,112 @@
 		<header>
 			<h4>Recipe Submission</h4>
 		</header>	
-				<p>If there is a recipe that you would like to share or a site that you
-				would like to add, please send me an email with the subject line of <a href="mailto:jlynn81@fullsail.edu">submit a recipe</a>
-				and I will be happy to post it.</p>	
-	</article>			
-	</section>
-	
-<!--Input form will be placed her so that visitors can receive recipes via there email address or the mail. -->	
+				<p id="link">If you would like to submit a recipe send me an email with the subject 
+				line of <a href="mailto:jlynn81@fullsail.edu">submit a recipe</a> and it will 
+				be posted to the site.  If you would like to receive recipes and updated 
+				information regarding anything hunting, please fill out the form below and 
+				we'll send you a monthly newsletter with the latest and greatest Wild Game links,
+				updated hunting locations, any new clubs that may develop in your area and 
+				new images that have been posted by our visitors.</p>	
+	</article>	
+		<!-- Here is the beginning of the Form area -->
+		<form method="get" action="mailto:jlynn81@fullsail.edu">
+			<!-- This is the Members Personal Information -->
+			<fieldset>
+				<legend>Personal Information</legend>
+				
+					<label for="name_first" class="fixedwidth">First Name</label>
+					<input name="name_first" type="text" id="name_first">
+					
+					<label for="name_last" class="fixedwidth">Last Name</label>
+					<input type="text" name="name_last" id="name_last"/>	
+					
+					<label for="address" class="fixedwidth">Address</label>
+					<input type="text" name="address" id="address"/>
+					
+					<label for="state" class="fixedwidth">State</label>
+					<select name="state">
+					<option value="AL">Alabama</option>
+					<option value="AK">Alaska</option>
+					<option value="AZ">Arizona</option>
+					<option value="AR">Arkansas</option>
+					<option value="CA">California</option>
+					<option value="CO">Colorado</option>
+					<option value="CT">Connecticut</option>
+					<option value="DE">Delaware</option>
+					<option value="DC">District of Columbia</option>
+					<option value="FL">Florida</option>
+					<option value="GA">Georgia</option>
+					<option value="HI">Hawaii</option>
+					<option value="ID">Idaho</option>
+					<option value="IL">Illinois</option>
+					<option value="IN">Indiana</option>
+					<option value="IA">Iowa</option>
+					<option value="KS">Kansas</option>
+					<option value="KY">Kentucky</option>
+					<option value="LA">Louisiana</option>
+					<option value="ME">Maine</option>
+					<option value="MD">Maryland</option>
+					<option value="MA">Massachusetts</option>
+					<option value="MI">Michigan</option>
+					<option value="MN">Minnesota</option>
+					<option value="MS">Mississippi</option>
+					<option value="MO">Missouri</option>
+					<option value="MT">Montana</option>
+					<option value="NE">Nebraska</option>
+					<option value="NV">Nevada</option>
+					<option value="NH">New Hampshire</option>
+					<option value="NJ">New Jersey</option>
+					<option value="NM">New Mexico</option>
+					<option value="NY">New York</option>
+					<option value="NC">North Carolina</option>
+					<option value="ND">North Dakota</option>
+					<option value="OH">Ohio</option>
+					<option value="OK">Oklahoma</option>
+					<option value="OR">Oregon</option>
+					<option value="PA">Pennsylvania</option>
+					<option value="RI">Rhode Island</option>
+					<option value="SC">South Carolina</option>
+					<option value="SD">South Dakota</option>
+					<option value="TN">Tennessee</option>
+					<option value="TX">Texas</option>
+					<option value="UT">Utah</option>
+					<option value="VT">Vermont</option>
+					<option value="VA">Virginia</option>
+					<option value="WA">Washington</option>
+					<option value="WV">West Virginia</option>
+					<option value="WI">Wisconsin</option>
+					<option value="WY">Wyoming</option>
+			</select>
+			
+					<label for="zip_code" class="fixedwidth">Zip Code</label>
+					<input type="text" name="zip_code" id="zip_code"/>
+					
+					<label for="phone" class="fixedwidth">Phone</label>
+					<input type="text" name="phone" id="phone"/>
+					
+					<label for="email" class="fixedwidth">Email</label>
+					<input type="text" name="email" id="email"/>	
+					
+			</fieldset>	
+				
+			<!-- This is the Checkbox Field Area -->
+		
+			<p> I prefer to be contacted by...</p>
+				<div id="checkbox"><input type="checkbox" name="email">Email</div>
+				<div id="checkbox"><input type="checkbox" name="phone">Phone</div>
+				<div id="checkbox"><input type="checkbox" name="mail">Mail</div>
+			<!-- End of Checkbox Field Area -->
+			
+			<div>
+				<label for="message">Message:</label>
+				<textarea rows="6" cols="30" name="message" id="message"></textarea>
+			</div>	
+			<div>
+				<button type="submit" name="submit" class="button">Send Message</button>
+			</div>		
+		</form> 
+	<!-- End of Form Data -->	
 	
 	  <footer>All rights reserved. Website maintained by Jennifer Brown.</footer>
 	  

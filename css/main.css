@@ -109,7 +109,7 @@ a:active {
 h2 {
 	color: #d1d3bd;
 	text-shadow: 0.25em 0.25em 0.25em #424331;
-	font-family: "Inika", serif;
+	font-family: "Fondamento", cursive;
 	font-size: 2.25em; /* 36px */
 	text-align: center;
 	line-height: 110%;
@@ -120,7 +120,7 @@ h2 {
 aside {
 	color: #000;
 	font-size: 1em; /* 16px */
-	font-family: "Fondamento", cursive;
+	font-family: "Inika", serif;
 	border: solid #000;
 	border-radius: 10px;
 	background-color: #d1d3bd;
