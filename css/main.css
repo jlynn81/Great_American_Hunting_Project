@@ -4,10 +4,6 @@
 body {
 	font-family: "Marko One", serif;
 	line-height: 125%;
-	text-align: center; 
-	border-width: 2em; 
-	border-radius: 1.25%; /*10px*/
-	height: 100%;
 	width: 90%; /* 800px */
 	margin: 0 auto;
 	padding: 1.875%; /* 15px/800px */
@@ -22,48 +18,54 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  opacity: 0.5;
 }
 
-h1	{
+/*HEADER INFORMATION*/
+#sitebranding img{
+    float: left;
+    position: relative;
+    top: 1em;
+    text-align: center;
+}
+
+#sitebranding h1	{
 	color: #232412;
 	text-shadow: 0.1875em 0.1875em 0.1875em #424331;
 	font-size: 3.375em; /* 16px/54px */
 	text-align: center;
 	line-height: 100%;
 	margin: 0;
-	padding: 2.5%; /* 20px/800px */ 	
+	padding: 2.5%; /* 20px/800px */
 }
 
-#tagline p {
+#sitebranding p{
 	font-family: "Inika", serif;
 	text-align: center; 
-	margin: 2.5%; 
+	margin: 2.5%;
+    position: relative;
+    top: -0.5em; right: -3.25em;
 }
 
 /*Navigation Area */
 	
-#navigation {
+nav {
 	position: relative;
-	margin: 2.5%; /* 20px */
 	font: 1.5em bold; /* 24px font that is bold */
+    clear: right;
+    text-align: center;
 }
 
-ul {
-	margin: 0;
-	padding: 0;
+nav ul {
 	overflow: auto;
 }
 	
-li {
-	width: 18.75%; /* 150px */
-	margin: auto;
-	padding: 0;
-	text-shadow: 0.0625em 0.0625em 0.0625em #000; /* Brings out text more */
-	list-style: none;
+nav li {
+	padding-right: 2em;
 	display: inline;
 }
 
-a {
+nav a {
 	padding: 0;
 	text-decoration: none;
 	background: none;
@@ -77,80 +79,73 @@ a {
 
 /* In order for the blink to work, you have to click the back arrow */
 
-a:link {
+nav a:link {
 	color: #d1d3bd;
 	text-decoration: none;
 }
 
-a:visited {
+nav a:visited {
 	color: green;
 	text-decoration: blink;
 }
 
-a:hover {
+nav a:hover {
 	color: #afb19b;
 	background: #d1d3bd;
 }
 
-a:active {
+nav a:active {
 	color: #d1d3bd;
 	font-weight: bold;
 }	
 /* End of Navigation Area */
-
-#image {
-	margin: 0 auto;
-	max-width: 100%;
-	padding: 1.875%; /* 15px/800px */
-}
-
 /* Content Area */
 
-h2 {
-	color: #d1d3bd;
-	text-shadow: 0.25em 0.25em 0.25em #424331;
+#content h2 {
+    padding-top: 3em;
+	text-shadow: 0.1em 0.1em 0.1em #424331;
 	font-family: "Fondamento", cursive;
-	font-size: 2.25em; /* 36px */
+	font-size: 28pt;
 	text-align: center;
-	line-height: 110%;
-	margin: 0 auto;
-	padding: 1.875%; /* 15px */
+
 }
 
-aside {
-	color: #000;
-	font-size: 1em; /* 16px */
+blockquote{
+	font-size: 12pt;
 	font-family: "Inika", serif;
-	border: solid #000;
-	border-radius: 10px;
-	background-color: #d1d3bd;
-	opacity: 0.7;
+    padding: 2em;
+}
+
+#intro img{
+    text-align: center;
+    float: left;
+    padding: 3em 1em 1em 3em;
 }
 
 strong {
 	font-weight: bold;
 }
 
-#column1, #column2, #column3 {
-	color: #000;
-	font-family: "Inika", serif;
-	background: none;
-	border-radius: 10px;
-	background-color: #d1d3bd;
-	opacity: 0.6;
-	padding: 0.3em;
-	-moz-column-count: 1; /* Firefox */
-	-webkit-column-count: 1; /* Safari and Chrome */
-} 
+#content ul{
+    list-style-type: none;
+    background-color: #095021;
+    border-radius: 0.5em;
+    padding: 2em;
+}
+
+#content ul li{
+    padding: 1em;
+}
 
 /* End of Content */
 footer {
-		color: #a0522d;
-		text-shadow: 0.25em 0.25em 0.25em #424331;
-		text-align: center;
-		background-color: #fff;
-		opacity: 0.5;
-		clear: both;
+	color: #a0522d;
+	text-shadow: 0.25em 0.25em 0.25em #424331;
+	text-align: center;
+	background-color: #fff;
+	opacity: 0.5;
+	clear: both;
+    padding: 0.5em;
 }
 	
 /* Media Queries
@@ -166,7 +161,7 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.9;
+  opacity: 0.25;
 }
 
 aside {
@@ -277,6 +272,6 @@ aside {
 	padding: 0.3em;
 	-moz-column-count: 1; /* Firefox */
 	-webkit-column-count: 1; /* Safari and Chrome */
-} 
+}
 
 }
