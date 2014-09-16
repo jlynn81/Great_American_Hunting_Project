@@ -27,6 +27,8 @@ body {
     position: relative;
     top: 1em;
     text-align: center;
+    width: 120px;
+    height: 80px;
 }
 
 #sitebranding h1	{
