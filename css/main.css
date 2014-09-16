@@ -102,15 +102,6 @@ nav a:active {
 
 /* HOME PAGE Content Area */
 
-#content h2 {
-    padding-top: 3em;
-	text-shadow: 0.1em 0.1em 0.1em #424331;
-	font-family: "Fondamento", cursive;
-	font-size: 28pt;
-	text-align: center;
-
-}
-
 blockquote{
 	font-size: 12pt;
 	font-family: "Inika", serif;
@@ -127,6 +118,19 @@ strong {
 	font-weight: bold;
 }
 
+#content h2, #club_content h2 {
+    padding-top: 3em;
+    text-shadow: 0.1em 0.1em 0.1em #424331;
+    font-family: "Fondamento", cursive;
+    font-size: 28pt;
+    text-align: center;
+
+}
+
+#content p, #club_content p{
+    line-height: 150%;
+}
+
 #content ul{
     list-style-type: none;
     background-color: #095021;
@@ -138,15 +142,26 @@ strong {
     padding: 1em;
 }
 
+#club_content ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#club_content ul li{
+    padding-bottom: 1em;
+}
+
+
 /* End of Content */
 
 footer {
 	color: #a0522d;
 	text-align: center;
-	background-color: #fff;
+	/*background-color: #fff;*/
 	opacity: 0.5;
 	clear: both;
     padding: 0.5em;
+    font-size: 10pt;
 }
 	
 /* Media Queries
