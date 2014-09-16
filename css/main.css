@@ -118,7 +118,7 @@ strong {
 	font-weight: bold;
 }
 
-#content h2, #club_content h2, #locations_content h2 {
+#content h2, #club_content h2, #locations_content h2, #equipment_content h2 {
     padding-top: 3em;
     text-shadow: 0.1em 0.1em 0.1em #424331;
     font-family: "Fondamento", cursive;
@@ -127,7 +127,7 @@ strong {
 
 }
 
-#content p, #club_content p{
+#content p, #club_content p, #equipment_content p{
     line-height: 150%;
 }
 
@@ -184,6 +184,29 @@ strong {
     letter-spacing: 3px;
 }
 /* END OF LOCATIONS_CONTENT INFORMATION */
+
+/* EQUIPMENT AND COOKING PAGE INFORMATION */
+
+#equipment_content img{
+    float: left;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+
+#recipes h3, #equipment_content h4{
+    font-size: 20pt;
+}
+
+#hunting_equip p{
+    padding-top: 2em;
+}
+
+
+
+#equipment_content h3{
+    clear: left;
+    padding-top: 2em;
+}
 
 
 /* End of Content */
