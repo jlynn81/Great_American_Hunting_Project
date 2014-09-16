@@ -18,7 +18,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 /*HEADER INFORMATION*/
@@ -77,8 +77,7 @@ nav a {
 	color: #232412;	
 }
 
-/* In order for the blink to work, you have to click the back arrow */
-
+/*BEGINNING OF NAVIGATION ELEMENTS*/
 nav a:link {
 	color: #d1d3bd;
 	text-decoration: none;
@@ -86,7 +85,6 @@ nav a:link {
 
 nav a:visited {
 	color: green;
-	text-decoration: blink;
 }
 
 nav a:hover {
@@ -98,9 +96,9 @@ nav a:active {
 	color: #d1d3bd;
 	font-weight: bold;
 }	
-/* End of Navigation Area */
+/* END OF NAVIGATION ELEMENT INFORMATION */
 
-/* HOME PAGE Content Area */
+/* PAGE CONTENT INFORMATION */
 
 blockquote{
 	font-size: 12pt;
@@ -118,7 +116,7 @@ strong {
 	font-weight: bold;
 }
 
-#content h2, #club_content h2 {
+#content h2, #club_content h2, #locations_content h2 {
     padding-top: 3em;
     text-shadow: 0.1em 0.1em 0.1em #424331;
     font-family: "Fondamento", cursive;
@@ -150,6 +148,40 @@ strong {
 #club_content ul li{
     padding-bottom: 1em;
 }
+
+/* LOCATIONS_CONTENT INFORMATION*/
+#locations_content p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 150%;
+}
+
+#locations_content table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#locations_content th {
+    text-align: left;
+    background-color: #232412;
+    color: #d1d3bd;
+    border-radius: 5px;
+    padding: 0.4em;
+    letter-spacing: 3px;
+}
+
+#locations_content td {
+    background-color: #afb19b;
+    color: #700000;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: block;
+    padding: 0.4em;
+    letter-spacing: 3px;
+}
+/* END OF LOCATIONS_CONTENT INFORMATION */
 
 
 /* End of Content */
