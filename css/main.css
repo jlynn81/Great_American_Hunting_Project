@@ -193,6 +193,10 @@ strong {
     padding-top: 2em;
 }
 
+#recipes, #hunting_equip, #recipe_submsn{
+    padding-top: 2em;
+}
+
 #recipes h3, #equipment_content h4{
     font-size: 20pt;
 }
@@ -201,13 +205,18 @@ strong {
     padding-top: 2em;
 }
 
-
-
 #equipment_content h3{
     clear: left;
     padding-top: 2em;
 }
 
+#recipe_submsn p{
+    padding-bottom: 2em;
+}
+
+label, input{
+    display: inline-block;
+}
 
 /* End of Content */
 
