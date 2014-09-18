@@ -218,6 +218,22 @@ label, input{
     display: inline-block;
 }
 
+/* FORM STYLING INFORMATION*/
+
+#field1-container, #field5-container, #field6-container, #field3-container, #field2-container, #form-submit{
+    padding-bottom: 1em;
+}
+
+#field3-container label{
+    padding-bottom: 1em;
+}
+
+.option-clearfix{
+    display: inline;
+}
+
+
+
 /* End of Content */
 
 footer {
