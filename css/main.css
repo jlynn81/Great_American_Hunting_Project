@@ -118,7 +118,7 @@ strong {
 	font-weight: bold;
 }
 
-#content h2, #club_content h2, #locations_content h2, #equipment_content h2 {
+#content h2, #club_content h2, #locations_content h2, #equipment_content h2, #gallery_content h2 {
     padding-top: 3em;
     text-shadow: 0.1em 0.1em 0.1em #424331;
     font-family: "Fondamento", cursive;
@@ -127,7 +127,7 @@ strong {
 
 }
 
-#content p, #club_content p, #equipment_content p{
+#content p, #club_content p, #equipment_content p, #gallery_content p{
     line-height: 150%;
 }
 
@@ -138,11 +138,11 @@ strong {
     padding: 2em;
 }
 
-#content ul li{
+#content ul li, #gallery_content ul li{
     padding: 1em;
 }
 
-#club_content ul{
+#club_content ul, #gallery_content ul{
     list-style-type: none;
     padding-left: 0;
 }
@@ -231,6 +231,13 @@ label, input{
 .option-clearfix{
     display: inline;
 }
+
+/* GALLERY CONTENT INFORMATION */
+
+#gallery_content ul li{
+    float: left;
+}
+
 
 
 
