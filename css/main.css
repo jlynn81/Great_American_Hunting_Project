@@ -81,16 +81,16 @@ nav a {
 }
 
 /*BEGINNING OF NAVIGATION ELEMENTS*/
-nav a:link, #recipes a:link, #recipe_submsn a:link {
+nav a:link, #recipes a:link, #recipe_submsn a:link, #gallery_content a:link {
 	color: #4D351B;
 	text-decoration: none;
 }
 
-nav a:visited {
-	color: #32381B;
+nav a:visited, #recipes a:visited, #recipe_submsn a:visited, #gallery_content a:visited {
+	color: #49561E;
 }
 
-nav a:hover, #recipes a:hover, #recipe_submsn a:hover {
+nav a:hover, #recipes a:hover, #recipe_submsn a:hover, #gallery_content a:hover {
 	color: #242F13;
     font-weight: bold;
 }
