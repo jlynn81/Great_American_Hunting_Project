@@ -4,9 +4,9 @@
 body {
 	font-family: "Marko One", serif;
 	line-height: 125%;
-	width: 90%; /* 800px */
+	width: 88%;
 	margin: 0 auto;
-	padding: 1.875%; /* 15px/800px */
+	padding: 1em;
 }
 
 #full-screen-background-image {
@@ -249,15 +249,11 @@ label, input{
     display: inline-block;
 }
 
-
-
-
 /* End of Content */
 
 footer {
 	color: #a0522d;
 	text-align: center;
-	/*background-color: #fff;*/
 	opacity: 0.5;
 	clear: both;
     padding: 0.5em;
@@ -268,10 +264,10 @@ footer {
 ---------------------------------------------------------------------------- */
 
 /* Tablet Portrait size to Standard 960 (devices and browsers) */
-@media screen and (min-width: 768px) and (max-width: 956px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 #full-screen-background-image {
   min-height: 100%;
-  min-width: 49.686192468619%; /* 475px/956px */
+  /*min-width: 49.686192468619%; *//* 475px/956px */
   width: 100%;
   height: auto;
   position: fixed;
@@ -300,18 +296,6 @@ footer {
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
-#full-screen-background-image {
-  z-index: -999;
-  min-height: 100%;
-  min-width: 59.375%;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0.75;
-}
 
 aside {
 	color: #095021;
@@ -326,10 +310,10 @@ footer {
 		text-align: center;
 		clear: both;
 }
-}		
+}
 
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
+/* Mobile Portrait Size to Mobile Portrait (320x480) (devices and browsers) */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
 #image {
 	margin: 0 auto;
@@ -349,18 +333,67 @@ footer {
   opacity: 0.3;
 }
 
-h2 {
-	color: #232412;
-	text-shadow: 0.25em 0.25em 0.25em #424331; /*4px 4px 4px #424331 */
-	font-family: "Inika", serif;
-	font-size: 2.25em; /* 36px */
-	text-align: center;
-	line-height: 110%;
-	margin: 0 auto;
-	padding: 1.875%; /* 15px */
-}
+    #sitebranding h1	{
+        color: #232412;
+        font-size: 3.375em;
+        line-height: 100%;
+        margin: 0 auto;
+        padding-top: 2em;
+        text-align: left;
+        text-shadow: 0.01em 0.01em 0.1em #424331;
+    }
 
-aside {
+
+    #sitebranding p{
+        font-family: "Inika", serif;
+        font-size: 14pt;
+        text-align: left;
+        position: relative;
+        left: 0.65em;
+        padding-top: 2em;
+    }
+
+    nav {
+        clear: right;
+        font: 1.5em bold;
+        left: -1.5em;
+        position: relative;
+        text-align: left;
+        padding-left: 0.4em;
+    }
+
+    nav ul {
+        list-style-type: none;
+        overflow: auto;
+    }
+
+    nav li {
+        display: block;
+        padding-right: 2em;
+    }
+
+    #content h2, #club_content h2, #locations_content h2, #equipment_content h2, #gallery_content h2 {
+        font-family: "Fondamento", cursive;
+        font-size: 28pt;
+        text-align: left;
+        line-height: 100%;
+        padding-top: 0;
+    }
+
+    #hunting_equip p{
+        padding-top: 10em;
+    }
+
+    .option-clearfix {
+        display: block;
+    }
+
+
+
+
+
+
+    aside {
 	color: #095021;
 	font-size: 1em; /* 16px */
 	font-family: "Fondamento", cursive;
