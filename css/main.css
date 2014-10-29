@@ -18,7 +18,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.25;
 }
 
 
@@ -38,8 +38,8 @@ body {
 	font-size: 3.375em; /* 16px/54px */
 	text-align: center;
 	line-height: 100%;
-	margin: 0;
-	padding: 2.5%; /* 20px/800px */
+    padding-top: 0.7em;
+    padding-bottom: 0.7em
 }
 
 #sitebranding p{
@@ -81,16 +81,16 @@ nav a {
 }
 
 /*BEGINNING OF NAVIGATION ELEMENTS*/
-nav a:link, #recipes a:link, #recipe_submsn a:link, #gallery_content a:link {
+nav a:link, #recipes a:link, #recipe_submsn a:link, #gallery_content a:link, #club_content a:link, #locations_content a:link {
 	color: #4D351B;
 	text-decoration: none;
 }
 
-nav a:visited, #recipes a:visited, #recipe_submsn a:visited, #gallery_content a:visited {
+nav a:visited, #recipes a:visited, #recipe_submsn a:visited, #gallery_content a:visited, #club_content a:visited, #locations_content a:visited {
 	color: #49561E;
 }
 
-nav a:hover, #recipes a:hover, #recipe_submsn a:hover, #gallery_content a:hover {
+nav a:hover, #recipes a:hover, #recipe_submsn a:hover, #gallery_content a:hover, #club_content a:hover, #locations_content a:hover {
 	color: #242F13;
     font-weight: bold;
 }
@@ -98,8 +98,13 @@ nav a:hover, #recipes a:hover, #recipe_submsn a:hover, #gallery_content a:hover 
 nav a:active {
 	color: #242F13;
 	font-weight: bolder;
-}	
-/* END OF NAVIGATION ELEMENT INFORMATION */
+}
+
+#recipes a:hover, #recipe_submsn a:hover, #gallery_content a:hover, #club_content a:hover, #locations_content a:hover {
+    text-decoration: underline;
+}
+
+/* END OF NAVIGATION ELEMENT INFORMATION/ LINK INFORMATION */
 
 /* PAGE CONTENT INFORMATION */
 
@@ -143,7 +148,6 @@ strong {
 
 #content ul li, #gallery_content ul li{
     padding: 1em;
-    color: #ffffff;
 }
 
 #club_content ul, #gallery_content ul{
@@ -244,8 +248,8 @@ label, input{
 
 #gallery_content img{
 
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     display: inline-block;
 }
 
@@ -264,35 +268,47 @@ footer {
 ---------------------------------------------------------------------------- */
 
 /* Tablet Portrait size to Standard 960 (devices and browsers) */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-#full-screen-background-image {
-  min-height: 100%;
-  /*min-width: 49.686192468619%; *//* 475px/956px */
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0.25;
-}
+/*@media screen and (min-width: 768px) and (max-width: 1024px)*/
+/*{*/
 
-aside {
-	color: #000;
-	font-size: 1em; /* 16px */
-	font-family: "Fondamento", cursive;
-	border: solid #000;
-	background-color: #d1d3bd;
-	opacity: 0.7;
-}
+/*#sitebranding h1 {*/
+    /*color: #232412;*/
+    /*font-size: 3.375em;*/
+    /*line-height: 100%;*/
+    /*margin: 0 auto;*/
+    /*padding-top: 2em;*/
+    /*padding-bottom: 2em;*/
+    /*text-align: left;*/
+    /*text-shadow: 0.01em 0.01em 0.1em #424331;*/
+/*}*/
 
-footer {
-		color: #a0522d;
-		text-align: center;
-		background-color: #000;
-		opacity: 0.5;
-		clear: both;
-}
-}
+
+/*#sitebranding p{*/
+    /*font-family: "Inika", serif;*/
+    /*font-size: 14pt;*/
+    /*text-align: left;*/
+    /*position: relative;*/
+    /*left: 0.65em;*/
+    /*padding-top: 2em;*/
+/*}*/
+
+/*aside {*/
+	/*color: #000;*/
+	/*font-size: 1em; *//* 16px */
+	/*font-family: "Fondamento", cursive;*/
+	/*border: solid #000;*/
+	/*background-color: #d1d3bd;*/
+	/*opacity: 0.7;*/
+/*}*/
+
+/*footer {*/
+		/*color: #a0522d;*/
+		/*text-align: center;*/
+		/*background-color: #000;*/
+		/*opacity: 0.5;*/
+		/*clear: both;*/
+/*}*/
+/*}*/
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -313,7 +329,8 @@ footer {
 }
 
 /* Mobile Portrait Size to Mobile Portrait (320x480) (devices and browsers) */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px)
+{
 
 #image {
 	margin: 0 auto;
@@ -322,82 +339,66 @@ footer {
 	display: none;
 }
 
-#full-screen-background-image {
-  z-index: -999;
-  min-height: 100%;
-  min-width: 99.164926931106%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
+#sitebranding h1 {
+    color: #232412;
+    font-size: 3.375em;
+    line-height: 100%;
+    margin: 0 auto;
+    padding-top: 2em;
+    text-align: left;
+    text-shadow: 0.01em 0.01em 0.1em #424331;
 }
 
-    #sitebranding h1	{
-        color: #232412;
-        font-size: 3.375em;
-        line-height: 100%;
-        margin: 0 auto;
-        padding-top: 2em;
-        text-align: left;
-        text-shadow: 0.01em 0.01em 0.1em #424331;
-    }
 
+#sitebranding p{
+    font-family: "Inika", serif;
+    font-size: 14pt;
+    text-align: left;
+    position: relative;
+    left: 0.65em;
+    padding-top: 2em;
+}
 
-    #sitebranding p{
-        font-family: "Inika", serif;
-        font-size: 14pt;
-        text-align: left;
-        position: relative;
-        left: 0.65em;
-        padding-top: 2em;
-    }
+nav {
+    clear: right;
+    font: 1.5em bold;
+    left: -1.5em;
+    position: relative;
+    text-align: left;
+    padding-left: 0.4em;
+}
 
-    nav {
-        clear: right;
-        font: 1.5em bold;
-        left: -1.5em;
-        position: relative;
-        text-align: left;
-        padding-left: 0.4em;
-    }
+nav ul {
+    list-style-type: none;
+    overflow: auto;
+}
 
-    nav ul {
-        list-style-type: none;
-        overflow: auto;
-    }
+nav li {
+    display: block;
+    padding-right: 2em;
+}
 
-    nav li {
-        display: block;
-        padding-right: 2em;
-    }
+#content h2, #club_content h2, #locations_content h2, #equipment_content h2, #gallery_content h2 {
+    font-family: "Fondamento", cursive;
+    font-size: 28pt;
+    text-align: left;
+    line-height: 100%;
+    padding-top: 0;
+}
 
-    #content h2, #club_content h2, #locations_content h2, #equipment_content h2, #gallery_content h2 {
-        font-family: "Fondamento", cursive;
-        font-size: 28pt;
-        text-align: left;
-        line-height: 100%;
-        padding-top: 0;
-    }
+#hunting_equip p{
+    padding-top: 10em;
+}
 
-    #hunting_equip p{
-        padding-top: 10em;
-    }
+.option-clearfix {
+    display: block;
+}
 
-    .option-clearfix {
-        display: block;
-    }
-
-
-
-
-
-
-    aside {
-	color: #095021;
-	font-size: 1em; /* 16px */
-	font-family: "Fondamento", cursive;
-	border: solid #ccc;
+aside {
+color: #095021;
+font-size: 1em; /* 16px */
+font-family: "Fondamento", cursive;
+border: solid #ccc;
 }
 
 }
